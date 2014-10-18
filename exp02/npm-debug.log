@@ -1,0 +1,2487 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node',
+1 verbose cli   'C:\\Users\\dtt\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'mongojs' ]
+2 info using npm@2.1.4
+3 info using node@v0.10.32
+4 silly cache add args [ 'mongojs', null ]
+5 verbose cache add spec mongojs
+6 silly cache add parsed spec { raw: 'mongojs',
+6 silly cache add   scope: null,
+6 silly cache add   name: 'mongojs',
+6 silly cache add   rawSpec: '',
+6 silly cache add   spec: '*',
+6 silly cache add   type: 'range' }
+7 verbose addNamed mongojs@*
+8 silly addNamed semver.valid null
+9 silly addNamed semver.validRange *
+10 silly addNameRange { name: 'mongojs', range: '*', hasData: false }
+11 verbose mapToRegistry name mongojs
+12 verbose mapToRegistry uri https://registry.npmjs.org/mongojs
+13 verbose addNameRange registry:https://registry.npmjs.org/mongojs not in flight; fetching
+14 verbose request on initialization, where is /mongojs
+15 verbose request after pass 1, where is /mongojs
+16 verbose request url raw /mongojs
+17 verbose request resolving registry [ 'https://registry.npmjs.org/', './mongojs' ]
+18 verbose request after pass 2, where is https://registry.npmjs.org/mongojs
+19 verbose request no auth needed
+20 info attempt registry request try #1 at 02:50:14
+21 verbose request id 88ecc8f4823baa3c
+22 verbose etag "4AJW2KD25RKEDMIVSLP9EUYZZ"
+23 http request GET https://registry.npmjs.org/mongojs
+24 http 200 https://registry.npmjs.org/mongojs
+25 silly registry.get cb [ 200,
+25 silly registry.get   { date: 'Sat, 18 Oct 2014 06:50:14 GMT',
+25 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+25 silly registry.get     etag: '"9FH4ETNFVLF1PNU1AOH06BIT2"',
+25 silly registry.get     'content-type': 'application/json',
+25 silly registry.get     'cache-control': 'max-age=60',
+25 silly registry.get     'content-length': '94303',
+25 silly registry.get     'accept-ranges': 'bytes',
+25 silly registry.get     via: '1.1 varnish',
+25 silly registry.get     age: '0',
+25 silly registry.get     'x-served-by': 'cache-jfk1034-JFK',
+25 silly registry.get     'x-cache': 'MISS',
+25 silly registry.get     'x-cache-hits': '0',
+25 silly registry.get     'x-timer': 'S1413615014.019850,VS0,VE738',
+25 silly registry.get     vary: 'Accept',
+25 silly registry.get     'keep-alive': 'timeout=10, max=50',
+25 silly registry.get     connection: 'Keep-Alive' } ]
+26 silly addNameRange number 2 { name: 'mongojs', range: '*', hasData: true }
+27 silly addNameRange versions [ 'mongojs',
+27 silly addNameRange   [ '0.1.0',
+27 silly addNameRange     '0.1.1',
+27 silly addNameRange     '0.1.4',
+27 silly addNameRange     '0.1.5',
+27 silly addNameRange     '0.1.6',
+27 silly addNameRange     '0.1.8',
+27 silly addNameRange     '0.1.9',
+27 silly addNameRange     '0.2.0',
+27 silly addNameRange     '0.2.1',
+27 silly addNameRange     '0.2.2',
+27 silly addNameRange     '0.2.3',
+27 silly addNameRange     '0.2.4',
+27 silly addNameRange     '0.2.5',
+27 silly addNameRange     '0.2.6',
+27 silly addNameRange     '0.3.0',
+27 silly addNameRange     '0.3.1',
+27 silly addNameRange     '0.3.2',
+27 silly addNameRange     '0.4.0',
+27 silly addNameRange     '0.4.1',
+27 silly addNameRange     '0.4.2',
+27 silly addNameRange     '0.4.3',
+27 silly addNameRange     '0.4.4',
+27 silly addNameRange     '0.4.5',
+27 silly addNameRange     '0.4.6',
+27 silly addNameRange     '0.5.0',
+27 silly addNameRange     '0.5.1',
+27 silly addNameRange     '0.6.0',
+27 silly addNameRange     '0.6.1',
+27 silly addNameRange     '0.6.2',
+27 silly addNameRange     '0.6.3',
+27 silly addNameRange     '0.6.4',
+27 silly addNameRange     '0.7.0',
+27 silly addNameRange     '0.7.1',
+27 silly addNameRange     '0.7.2',
+27 silly addNameRange     '0.7.3',
+27 silly addNameRange     '0.7.4',
+27 silly addNameRange     '0.7.5',
+27 silly addNameRange     '0.7.6',
+27 silly addNameRange     '0.7.7',
+27 silly addNameRange     '0.7.8',
+27 silly addNameRange     '0.7.9',
+27 silly addNameRange     '0.7.10',
+27 silly addNameRange     '0.7.11',
+27 silly addNameRange     '0.7.13',
+27 silly addNameRange     '0.7.14',
+27 silly addNameRange     '0.7.15',
+27 silly addNameRange     '0.7.16',
+27 silly addNameRange     '0.7.17',
+27 silly addNameRange     '0.8.0',
+27 silly addNameRange     '0.8.1',
+27 silly addNameRange     '0.9.0',
+27 silly addNameRange     '0.9.1',
+27 silly addNameRange     '0.9.2',
+27 silly addNameRange     '0.9.3',
+27 silly addNameRange     '0.9.4',
+27 silly addNameRange     '0.9.5',
+27 silly addNameRange     '0.9.6',
+27 silly addNameRange     '0.9.7',
+27 silly addNameRange     '0.9.8',
+27 silly addNameRange     '0.9.9',
+27 silly addNameRange     '0.9.10',
+27 silly addNameRange     '0.9.11',
+27 silly addNameRange     '0.10.0',
+27 silly addNameRange     '0.10.1',
+27 silly addNameRange     '0.11.0',
+27 silly addNameRange     '0.11.1',
+27 silly addNameRange     '0.12.0',
+27 silly addNameRange     '0.12.1',
+27 silly addNameRange     '0.13.0',
+27 silly addNameRange     '0.13.1',
+27 silly addNameRange     '0.14.0',
+27 silly addNameRange     '0.14.1',
+27 silly addNameRange     '0.14.2',
+27 silly addNameRange     '0.15.0',
+27 silly addNameRange     '0.15.1' ] ]
+28 verbose addNamed mongojs@0.15.1
+29 silly addNamed semver.valid 0.15.1
+30 silly addNamed semver.validRange 0.15.1
+31 verbose addRemoteTarball https://registry.npmjs.org/mongojs/-/mongojs-0.15.1.tgz not in flight; adding
+32 verbose addRemoteTarball [ 'https://registry.npmjs.org/mongojs/-/mongojs-0.15.1.tgz',
+32 verbose addRemoteTarball   'c74c6e6508d4515dd47fb6eab4f1db78d7691fff' ]
+33 info retry fetch attempt 1 at 02:50:15
+34 info attempt registry request try #1 at 02:50:15
+35 http fetch GET https://registry.npmjs.org/mongojs/-/mongojs-0.15.1.tgz
+36 http fetch 200 https://registry.npmjs.org/mongojs/-/mongojs-0.15.1.tgz
+37 silly fetchAndShaCheck shasum c74c6e6508d4515dd47fb6eab4f1db78d7691fff
+38 verbose addTmpTarball C:\Users\dtt\AppData\Local\Temp\npm-5932-2c8f0513\registry.npmjs.org\mongojs\-\mongojs-0.15.1.tgz not in flight; adding
+39 verbose addTmpTarball already have metadata; skipping unpack for mongojs@0.15.1
+40 silly cache afterAdd mongojs@0.15.1
+41 verbose afterAdd C:\Users\dtt\AppData\Roaming\npm-cache\mongojs\0.15.1\package\package.json not in flight; writing
+42 verbose afterAdd C:\Users\dtt\AppData\Roaming\npm-cache\mongojs\0.15.1\package\package.json written
+43 silly install resolved [ { name: 'mongojs',
+43 silly install resolved     description: 'Easy to use module that implements the mongo api',
+43 silly install resolved     keywords: [ 'mongo', 'db', 'mongodb' ],
+43 silly install resolved     version: '0.15.1',
+43 silly install resolved     repository: { type: 'git', url: 'git://github.com/mafintosh/mongojs.git' },
+43 silly install resolved     author: { name: 'Mathias Buus Madsen', email: 'mathiasbuus@gmail.com' },
+43 silly install resolved     contributors:
+43 silly install resolved      [ [Object],
+43 silly install resolved        [Object],
+43 silly install resolved        [Object],
+43 silly install resolved        [Object],
+43 silly install resolved        [Object],
+43 silly install resolved        [Object],
+43 silly install resolved        [Object],
+43 silly install resolved        [Object],
+43 silly install resolved        [Object],
+43 silly install resolved        [Object],
+43 silly install resolved        [Object],
+43 silly install resolved        [Object],
+43 silly install resolved        [Object] ],
+43 silly install resolved     dependencies:
+43 silly install resolved      { thunky: '~0.1.0',
+43 silly install resolved        'readable-stream': '~1.1.9',
+43 silly install resolved        mongodb: '1.4.18' },
+43 silly install resolved     scripts: { test: 'tape test/test-*.js; echo "Harmony tests"; node --harmony node_modules/tape/bin/tape test/test-*.js' },
+43 silly install resolved     devDependencies: { 'each-series': '^0.2.0', tape: '^2.13.4' },
+43 silly install resolved     gitHead: 'af4d245108877af3caf355ac9d3a34ea0e68ac6e',
+43 silly install resolved     bugs: { url: 'https://github.com/mafintosh/mongojs/issues' },
+43 silly install resolved     homepage: 'https://github.com/mafintosh/mongojs',
+43 silly install resolved     _id: 'mongojs@0.15.1',
+43 silly install resolved     _shasum: 'c74c6e6508d4515dd47fb6eab4f1db78d7691fff',
+43 silly install resolved     _from: 'mongojs@*',
+43 silly install resolved     _npmVersion: '1.4.23',
+43 silly install resolved     _npmUser: { name: 'sorribas', email: 'eduardo@sorribas.org' },
+43 silly install resolved     maintainers: [ [Object], [Object], [Object] ],
+43 silly install resolved     dist:
+43 silly install resolved      { shasum: 'c74c6e6508d4515dd47fb6eab4f1db78d7691fff',
+43 silly install resolved        tarball: 'http://registry.npmjs.org/mongojs/-/mongojs-0.15.1.tgz' },
+43 silly install resolved     directories: {},
+43 silly install resolved     _resolved: 'https://registry.npmjs.org/mongojs/-/mongojs-0.15.1.tgz' } ]
+44 info install mongojs@0.15.1 into C:\Users\dtt\Documents\GitHub\web_exp02\exp02
+45 info installOne mongojs@0.15.1
+46 verbose installOne of mongojs to C:\Users\dtt\Documents\GitHub\web_exp02\exp02 not in flight; installing
+47 verbose lock using C:\Users\dtt\AppData\Roaming\npm-cache\_locks\mongojs-92f368c560090d7e.lock for C:\Users\dtt\Documents\GitHub\web_exp02\exp02\node_modules\mongojs
+48 silly install write writing mongojs 0.15.1 to C:\Users\dtt\Documents\GitHub\web_exp02\exp02\node_modules\mongojs
+49 silly cache addNamed cb mongojs@0.15.1
+50 verbose unbuild node_modules\mongojs
+51 verbose gentlyRm vacuuming C:\Users\dtt\Documents\GitHub\web_exp02\exp02\node_modules\mongojs
+52 verbose tar unpack C:\Users\dtt\AppData\Roaming\npm-cache\mongojs\0.15.1\package.tgz
+53 verbose tar unpacking to C:\Users\dtt\Documents\GitHub\web_exp02\exp02\node_modules\mongojs
+54 verbose gentlyRm vacuuming C:\Users\dtt\Documents\GitHub\web_exp02\exp02\node_modules\mongojs
+55 silly gunzTarPerm modes [ '777', '666' ]
+56 silly gunzTarPerm extractEntry package.json
+57 silly gunzTarPerm modified mode [ 'package.json', 436, 438 ]
+58 silly gunzTarPerm extractEntry .npmignore
+59 silly gunzTarPerm modified mode [ '.npmignore', 436, 438 ]
+60 silly gunzTarPerm extractEntry README.md
+61 silly gunzTarPerm modified mode [ 'README.md', 436, 438 ]
+62 silly gunzTarPerm extractEntry LICENSE
+63 silly gunzTarPerm modified mode [ 'LICENSE', 436, 438 ]
+64 silly gunzTarPerm extractEntry example.js
+65 silly gunzTarPerm modified mode [ 'example.js', 436, 438 ]
+66 silly gunzTarPerm extractEntry index.js
+67 silly gunzTarPerm modified mode [ 'index.js', 436, 438 ]
+68 silly gunzTarPerm extractEntry .vimrc
+69 silly gunzTarPerm modified mode [ '.vimrc', 436, 438 ]
+70 silly gunzTarPerm extractEntry .travis.yml
+71 silly gunzTarPerm modified mode [ '.travis.yml', 436, 438 ]
+72 silly gunzTarPerm extractEntry test/crash.js
+73 silly gunzTarPerm modified mode [ 'test/crash.js', 436, 438 ]
+74 silly gunzTarPerm extractEntry test/test-find-by-objectid.js
+75 silly gunzTarPerm modified mode [ 'test/test-find-by-objectid.js', 436, 438 ]
+76 silly gunzTarPerm extractEntry test/test-find-cursor-options.js
+77 silly gunzTarPerm modified mode [ 'test/test-find-cursor-options.js', 436, 438 ]
+78 silly gunzTarPerm extractEntry test/test-find-cursor.js
+79 silly gunzTarPerm modified mode [ 'test/test-find-cursor.js', 436, 438 ]
+80 silly gunzTarPerm extractEntry test/test-find-limit.js
+81 silly gunzTarPerm modified mode [ 'test/test-find-limit.js', 436, 438 ]
+82 silly gunzTarPerm extractEntry test/test-find-and-select.js
+83 silly gunzTarPerm modified mode [ 'test/test-find-and-select.js', 436, 438 ]
+84 silly gunzTarPerm extractEntry test/test-find-query.js
+85 silly gunzTarPerm modified mode [ 'test/test-find-query.js', 436, 438 ]
+86 silly gunzTarPerm extractEntry test/test-find.js
+87 silly gunzTarPerm modified mode [ 'test/test-find.js', 436, 438 ]
+88 silly gunzTarPerm extractEntry test/test-get-collection-names.js
+89 silly gunzTarPerm modified mode [ 'test/test-get-collection-names.js', 436, 438 ]
+90 silly gunzTarPerm extractEntry test/test-group.js
+91 silly gunzTarPerm modified mode [ 'test/test-group.js', 436, 438 ]
+92 silly gunzTarPerm extractEntry test/test-insert.js
+93 silly gunzTarPerm modified mode [ 'test/test-insert.js', 436, 438 ]
+94 silly gunzTarPerm extractEntry test/test-find-and-modify.js
+95 silly gunzTarPerm modified mode [ 'test/test-find-and-modify.js', 436, 438 ]
+96 silly gunzTarPerm extractEntry test/test-optional-callback.js
+97 silly gunzTarPerm modified mode [ 'test/test-optional-callback.js', 436, 438 ]
+98 silly gunzTarPerm extractEntry test/test-disinct.js
+99 silly gunzTarPerm modified mode [ 'test/test-disinct.js', 436, 438 ]
+100 silly gunzTarPerm extractEntry test/test-pass-driver-db.js
+101 silly gunzTarPerm modified mode [ 'test/test-pass-driver-db.js', 436, 438 ]
+102 silly gunzTarPerm extractEntry test/test-cursor-size.js
+103 silly gunzTarPerm modified mode [ 'test/test-cursor-size.js', 436, 438 ]
+104 silly gunzTarPerm extractEntry test/test-proxy.js
+105 silly gunzTarPerm modified mode [ 'test/test-proxy.js', 436, 438 ]
+106 silly gunzTarPerm extractEntry test/test-cursor-map.js
+107 silly gunzTarPerm modified mode [ 'test/test-cursor-map.js', 436, 438 ]
+108 silly gunzTarPerm extractEntry test/test-remove.js
+109 silly gunzTarPerm modified mode [ 'test/test-remove.js', 436, 438 ]
+110 silly gunzTarPerm extractEntry test/test-cursor-explain.js
+111 silly gunzTarPerm modified mode [ 'test/test-cursor-explain.js', 436, 438 ]
+112 silly gunzTarPerm extractEntry test/test-runcommand.js
+113 silly gunzTarPerm modified mode [ 'test/test-runcommand.js', 436, 438 ]
+114 silly gunzTarPerm extractEntry test/test-create-collection.js
+115 silly gunzTarPerm modified mode [ 'test/test-create-collection.js', 436, 438 ]
+116 silly gunzTarPerm extractEntry test/test-save.js
+117 silly gunzTarPerm modified mode [ 'test/test-save.js', 436, 438 ]
+118 silly gunzTarPerm extractEntry test/test-crash.js
+119 silly gunzTarPerm modified mode [ 'test/test-crash.js', 436, 438 ]
+120 silly gunzTarPerm extractEntry test/test-simple.js
+121 silly gunzTarPerm modified mode [ 'test/test-simple.js', 436, 438 ]
+122 silly gunzTarPerm extractEntry test/test-chained-collection-names.js
+123 silly gunzTarPerm modified mode [ 'test/test-chained-collection-names.js', 436, 438 ]
+124 silly gunzTarPerm extractEntry test/test-streaming-cursor.js
+125 silly gunzTarPerm modified mode [ 'test/test-streaming-cursor.js', 436, 438 ]
+126 silly gunzTarPerm extractEntry test/test-bulk-updates.js
+127 silly gunzTarPerm modified mode [ 'test/test-bulk-updates.js', 436, 438 ]
+128 silly gunzTarPerm extractEntry test/test-update-and-callback.js
+129 silly gunzTarPerm modified mode [ 'test/test-update-and-callback.js', 436, 438 ]
+130 silly gunzTarPerm extractEntry test/tape.js
+131 silly gunzTarPerm modified mode [ 'test/tape.js', 436, 438 ]
+132 silly gunzTarPerm extractEntry test/test-update-multi.js
+133 silly gunzTarPerm modified mode [ 'test/test-update-multi.js', 436, 438 ]
+134 silly gunzTarPerm extractEntry test/insert.js
+135 silly gunzTarPerm modified mode [ 'test/insert.js', 436, 438 ]
+136 silly gunzTarPerm extractEntry test/test-update.js
+137 silly gunzTarPerm modified mode [ 'test/test-update.js', 436, 438 ]
+138 silly gunzTarPerm extractEntry test/test-find-one.js
+139 silly gunzTarPerm modified mode [ 'test/test-find-one.js', 436, 438 ]
+140 info preinstall mongojs@0.15.1
+141 silly prepareForInstallMany adding thunky@~0.1.0 from mongojs dependencies
+142 silly prepareForInstallMany adding readable-stream@~1.1.9 from mongojs dependencies
+143 silly prepareForInstallMany adding mongodb@1.4.18 from mongojs dependencies
+144 silly cache add args [ 'thunky@~0.1.0', null ]
+145 verbose cache add spec thunky@~0.1.0
+146 silly cache add args [ 'readable-stream@~1.1.9', null ]
+147 verbose cache add spec readable-stream@~1.1.9
+148 silly cache add args [ 'mongodb@1.4.18', null ]
+149 verbose cache add spec mongodb@1.4.18
+150 silly cache add parsed spec { raw: 'thunky@~0.1.0',
+150 silly cache add   scope: null,
+150 silly cache add   name: 'thunky',
+150 silly cache add   rawSpec: '~0.1.0',
+150 silly cache add   spec: '>=0.1.0 <0.2.0',
+150 silly cache add   type: 'range' }
+151 verbose addNamed thunky@>=0.1.0 <0.2.0
+152 silly addNamed semver.valid null
+153 silly addNamed semver.validRange >=0.1.0 <0.2.0
+154 silly addNameRange { name: 'thunky', range: '>=0.1.0 <0.2.0', hasData: false }
+155 verbose mapToRegistry name thunky
+156 verbose mapToRegistry uri https://registry.npmjs.org/thunky
+157 verbose addNameRange registry:https://registry.npmjs.org/thunky not in flight; fetching
+158 silly cache add parsed spec { raw: 'readable-stream@~1.1.9',
+158 silly cache add   scope: null,
+158 silly cache add   name: 'readable-stream',
+158 silly cache add   rawSpec: '~1.1.9',
+158 silly cache add   spec: '>=1.1.9 <1.2.0',
+158 silly cache add   type: 'range' }
+159 verbose addNamed readable-stream@>=1.1.9 <1.2.0
+160 silly addNamed semver.valid null
+161 silly addNamed semver.validRange >=1.1.9 <1.2.0
+162 silly addNameRange { name: 'readable-stream',
+162 silly addNameRange   range: '>=1.1.9 <1.2.0',
+162 silly addNameRange   hasData: false }
+163 verbose mapToRegistry name readable-stream
+164 verbose mapToRegistry uri https://registry.npmjs.org/readable-stream
+165 verbose addNameRange registry:https://registry.npmjs.org/readable-stream not in flight; fetching
+166 silly cache add parsed spec { raw: 'mongodb@1.4.18',
+166 silly cache add   scope: null,
+166 silly cache add   name: 'mongodb',
+166 silly cache add   rawSpec: '1.4.18',
+166 silly cache add   spec: '1.4.18',
+166 silly cache add   type: 'version' }
+167 verbose addNamed mongodb@1.4.18
+168 silly addNamed semver.valid 1.4.18
+169 silly addNamed semver.validRange 1.4.18
+170 verbose mapToRegistry name mongodb
+171 verbose mapToRegistry uri https://registry.npmjs.org/mongodb
+172 verbose addNameVersion registry:https://registry.npmjs.org/mongodb not in flight; fetching
+173 verbose request on initialization, where is /readable-stream
+174 verbose request after pass 1, where is /readable-stream
+175 verbose request url raw /readable-stream
+176 verbose request resolving registry [ 'https://registry.npmjs.org/', './readable-stream' ]
+177 verbose request after pass 2, where is https://registry.npmjs.org/readable-stream
+178 verbose request no auth needed
+179 info attempt registry request try #1 at 02:50:15
+180 verbose etag "9T8T2LQ3JNLYKFS00R2V79NHQ"
+181 http request GET https://registry.npmjs.org/readable-stream
+182 verbose request on initialization, where is /thunky
+183 verbose request after pass 1, where is /thunky
+184 verbose request url raw /thunky
+185 verbose request resolving registry [ 'https://registry.npmjs.org/', './thunky' ]
+186 verbose request after pass 2, where is https://registry.npmjs.org/thunky
+187 verbose request no auth needed
+188 info attempt registry request try #1 at 02:50:15
+189 verbose etag "WGCW95DYKI8YBH78NWWFWJD1"
+190 http request GET https://registry.npmjs.org/thunky
+191 verbose request on initialization, where is /mongodb
+192 verbose request after pass 1, where is /mongodb
+193 verbose request url raw /mongodb
+194 verbose request resolving registry [ 'https://registry.npmjs.org/', './mongodb' ]
+195 verbose request after pass 2, where is https://registry.npmjs.org/mongodb
+196 verbose request no auth needed
+197 info attempt registry request try #1 at 02:50:15
+198 verbose etag "3PMYUDP3ZUO9KTI73XADWKVNH"
+199 http request GET https://registry.npmjs.org/mongodb
+200 http 304 https://registry.npmjs.org/readable-stream
+201 silly registry.get cb [ 304,
+201 silly registry.get   { date: 'Sat, 18 Oct 2014 06:50:15 GMT',
+201 silly registry.get     server: 'Apache',
+201 silly registry.get     via: '1.1 varnish',
+201 silly registry.get     'last-modified': 'Sat, 18 Oct 2014 06:50:09 GMT',
+201 silly registry.get     'cache-control': 'max-age=60',
+201 silly registry.get     etag: '"9T8T2LQ3JNLYKFS00R2V79NHQ"',
+201 silly registry.get     age: '10',
+201 silly registry.get     'x-served-by': 'cache-jfk1023-JFK',
+201 silly registry.get     'x-cache': 'HIT',
+201 silly registry.get     'x-cache-hits': '2',
+201 silly registry.get     'x-timer': 'S1413615015.326492,VS0,VE0',
+201 silly registry.get     vary: 'Accept',
+201 silly registry.get     'content-length': '0',
+201 silly registry.get     'keep-alive': 'timeout=10, max=50',
+201 silly registry.get     connection: 'Keep-Alive' } ]
+202 verbose etag https://registry.npmjs.org/readable-stream from cache
+203 silly addNameRange number 2 { name: 'readable-stream',
+203 silly addNameRange   range: '>=1.1.9 <1.2.0',
+203 silly addNameRange   hasData: true }
+204 silly addNameRange versions [ 'readable-stream',
+204 silly addNameRange   [ '0.0.1',
+204 silly addNameRange     '0.0.2',
+204 silly addNameRange     '0.0.3',
+204 silly addNameRange     '0.0.4',
+204 silly addNameRange     '0.1.0',
+204 silly addNameRange     '0.2.0',
+204 silly addNameRange     '0.3.0',
+204 silly addNameRange     '0.3.1',
+204 silly addNameRange     '1.0.0',
+204 silly addNameRange     '1.0.1',
+204 silly addNameRange     '1.0.2',
+204 silly addNameRange     '1.0.15',
+204 silly addNameRange     '1.0.17',
+204 silly addNameRange     '1.1.7',
+204 silly addNameRange     '1.1.8',
+204 silly addNameRange     '1.1.9',
+204 silly addNameRange     '1.0.24',
+204 silly addNameRange     '1.0.25',
+204 silly addNameRange     '1.1.10',
+204 silly addNameRange     '1.0.25-1',
+204 silly addNameRange     '1.1.11',
+204 silly addNameRange     '1.0.26',
+204 silly addNameRange     '1.0.26-1',
+204 silly addNameRange     '1.1.11-1',
+204 silly addNameRange     '1.0.26-2',
+204 silly addNameRange     '1.1.12',
+204 silly addNameRange     '1.0.26-3',
+204 silly addNameRange     '1.0.26-4',
+204 silly addNameRange     '1.1.12-1',
+204 silly addNameRange     '1.0.27-1',
+204 silly addNameRange     '1.1.13-1',
+204 silly addNameRange     '1.0.31',
+204 silly addNameRange     '1.1.13',
+204 silly addNameRange     '1.0.32',
+204 silly addNameRange     '1.0.32-1',
+204 silly addNameRange     '1.0.33-1' ] ]
+205 verbose addNamed readable-stream@1.1.13
+206 silly addNamed semver.valid 1.1.13
+207 silly addNamed semver.validRange 1.1.13
+208 silly cache afterAdd readable-stream@1.1.13
+209 verbose afterAdd C:\Users\dtt\AppData\Roaming\npm-cache\readable-stream\1.1.13\package\package.json not in flight; writing
+210 verbose afterAdd C:\Users\dtt\AppData\Roaming\npm-cache\readable-stream\1.1.13\package\package.json written
+211 http 304 https://registry.npmjs.org/thunky
+212 silly registry.get cb [ 304,
+212 silly registry.get   { date: 'Sat, 18 Oct 2014 06:50:15 GMT',
+212 silly registry.get     server: 'Apache',
+212 silly registry.get     via: '1.1 varnish',
+212 silly registry.get     'last-modified': 'Sat, 18 Oct 2014 06:50:15 GMT',
+212 silly registry.get     'cache-control': 'max-age=60',
+212 silly registry.get     etag: '"WGCW95DYKI8YBH78NWWFWJD1"',
+212 silly registry.get     age: '0',
+212 silly registry.get     'x-served-by': 'cache-jfk1020-JFK',
+212 silly registry.get     'x-cache': 'HIT',
+212 silly registry.get     'x-cache-hits': '1',
+212 silly registry.get     'x-timer': 'S1413615015.350072,VS0,VE18',
+212 silly registry.get     vary: 'Accept',
+212 silly registry.get     'content-length': '0',
+212 silly registry.get     'keep-alive': 'timeout=10, max=50',
+212 silly registry.get     connection: 'Keep-Alive' } ]
+213 verbose etag https://registry.npmjs.org/thunky from cache
+214 silly addNameRange number 2 { name: 'thunky', range: '>=0.1.0 <0.2.0', hasData: true }
+215 silly addNameRange versions [ 'thunky', [ '0.1.0' ] ]
+216 verbose addNamed thunky@0.1.0
+217 silly addNamed semver.valid 0.1.0
+218 silly addNamed semver.validRange 0.1.0
+219 silly cache afterAdd thunky@0.1.0
+220 verbose afterAdd C:\Users\dtt\AppData\Roaming\npm-cache\thunky\0.1.0\package\package.json not in flight; writing
+221 verbose afterAdd C:\Users\dtt\AppData\Roaming\npm-cache\thunky\0.1.0\package\package.json written
+222 http 200 https://registry.npmjs.org/mongodb
+223 silly registry.get cb [ 200,
+223 silly registry.get   { date: 'Sat, 18 Oct 2014 06:50:15 GMT',
+223 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+223 silly registry.get     etag: '"DYKPM95NANPCLZ5V0K04ZN9C2"',
+223 silly registry.get     'content-type': 'application/json',
+223 silly registry.get     'cache-control': 'max-age=60',
+223 silly registry.get     'content-length': '370915',
+223 silly registry.get     'accept-ranges': 'bytes',
+223 silly registry.get     via: '1.1 varnish',
+223 silly registry.get     age: '0',
+223 silly registry.get     'x-served-by': 'cache-jfk1029-JFK',
+223 silly registry.get     'x-cache': 'HIT',
+223 silly registry.get     'x-cache-hits': '1',
+223 silly registry.get     'x-timer': 'S1413615015.368938,VS0,VE15',
+223 silly registry.get     vary: 'Accept',
+223 silly registry.get     'keep-alive': 'timeout=10, max=50',
+223 silly registry.get     connection: 'Keep-Alive' } ]
+224 verbose addRemoteTarball https://registry.npmjs.org/mongodb/-/mongodb-1.4.18.tgz not in flight; adding
+225 verbose addRemoteTarball [ 'https://registry.npmjs.org/mongodb/-/mongodb-1.4.18.tgz',
+225 verbose addRemoteTarball   '0c07ee4082cef68ba11d36dc4c80c0e0f569ec22' ]
+226 info retry fetch attempt 1 at 02:50:16
+227 info attempt registry request try #1 at 02:50:16
+228 http fetch GET https://registry.npmjs.org/mongodb/-/mongodb-1.4.18.tgz
+229 http fetch 200 https://registry.npmjs.org/mongodb/-/mongodb-1.4.18.tgz
+230 silly fetchAndShaCheck shasum 0c07ee4082cef68ba11d36dc4c80c0e0f569ec22
+231 verbose addTmpTarball C:\Users\dtt\AppData\Local\Temp\npm-5932-2c8f0513\registry.npmjs.org\mongodb\-\mongodb-1.4.18.tgz not in flight; adding
+232 verbose addTmpTarball already have metadata; skipping unpack for mongodb@1.4.18
+233 silly cache afterAdd mongodb@1.4.18
+234 verbose afterAdd C:\Users\dtt\AppData\Roaming\npm-cache\mongodb\1.4.18\package\package.json not in flight; writing
+235 verbose afterAdd C:\Users\dtt\AppData\Roaming\npm-cache\mongodb\1.4.18\package\package.json written
+236 silly install resolved [ { name: 'readable-stream',
+236 silly install resolved     version: '1.1.13',
+236 silly install resolved     description: 'Streams3, a user-land copy of the stream library from Node.js v0.11.x',
+236 silly install resolved     main: 'readable.js',
+236 silly install resolved     dependencies:
+236 silly install resolved      { 'core-util-is': '~1.0.0',
+236 silly install resolved        isarray: '0.0.1',
+236 silly install resolved        string_decoder: '~0.10.x',
+236 silly install resolved        inherits: '~2.0.1' },
+236 silly install resolved     devDependencies: { tap: '~0.2.6' },
+236 silly install resolved     scripts: { test: 'tap test/simple/*.js' },
+236 silly install resolved     repository: { type: 'git', url: 'git://github.com/isaacs/readable-stream' },
+236 silly install resolved     keywords: [ 'readable', 'stream', 'pipe' ],
+236 silly install resolved     browser: { util: false },
+236 silly install resolved     author:
+236 silly install resolved      { name: 'Isaac Z. Schlueter',
+236 silly install resolved        email: 'i@izs.me',
+236 silly install resolved        url: 'http://blog.izs.me/' },
+236 silly install resolved     license: 'MIT',
+236 silly install resolved     gitHead: '3b672fd7ae92acf5b4ffdbabf74b372a0a56b051',
+236 silly install resolved     bugs: { url: 'https://github.com/isaacs/readable-stream/issues' },
+236 silly install resolved     homepage: 'https://github.com/isaacs/readable-stream',
+236 silly install resolved     _id: 'readable-stream@1.1.13',
+236 silly install resolved     _shasum: 'f6eef764f514c89e2b9e23146a75ba106756d23e',
+236 silly install resolved     _from: 'readable-stream@>=1.1.9 <1.2.0',
+236 silly install resolved     _npmVersion: '1.4.23',
+236 silly install resolved     _npmUser: { name: 'rvagg', email: 'rod@vagg.org' },
+236 silly install resolved     maintainers: [ [Object], [Object], [Object] ],
+236 silly install resolved     dist:
+236 silly install resolved      { shasum: 'f6eef764f514c89e2b9e23146a75ba106756d23e',
+236 silly install resolved        tarball: 'http://registry.npmjs.org/readable-stream/-/readable-stream-1.1.13.tgz' },
+236 silly install resolved     directories: {},
+236 silly install resolved     _resolved: 'https://registry.npmjs.org/readable-stream/-/readable-stream-1.1.13.tgz',
+236 silly install resolved     readme: 'ERROR: No README data found!' },
+236 silly install resolved   { name: 'thunky',
+236 silly install resolved     version: '0.1.0',
+236 silly install resolved     repository: { type: 'git', url: 'git://github.com/mafintosh/thunky' },
+236 silly install resolved     description: 'delay the evaluation of a paramless async function and cache the result',
+236 silly install resolved     keywords: [ 'memo', 'thunk', 'async', 'lazy', 'control', 'flow', 'cache' ],
+236 silly install resolved     author: { name: 'Mathias Buus Madsen', email: 'mathiasbuus@gmail.com' },
+236 silly install resolved     readme: '# thunky\n\nDelay the evaluation of a paramless async function and cache the result (see [thunk](http://en.wikipedia.org/wiki/Thunk_%28functional_programming%29)).\n\n\tnpm install thunky\n\n## Example\n\nLet\'s make a simple function that returns a random number 1 second after it is called for the first time\n\n``` js\nvar thunky = require(\'thunky\');\n\nvar test = thunky(function(callback) { // the inner function should only accept a callback\n\tconsole.log(\'waiting 1s and returning random number\');\n\tsetTimeout(function() {\n\t\tcallback(Math.random());\n\t}, 1000);\n});\n\ntest(function(num) {  // inner function is called the first time we call test\n\tconsole.log(num); // prints random number\n});\n\ntest(function(num) {  // subsequent calls waits for the first call to finish and return the same value\n\tconsole.log(num); // prints the same random number as above\n});\n```\n\n## Lazy evaluation\n\nThunky makes it easy to implement a lazy evaluation pattern.\n\n``` js\nvar getDb = thunky(function(callback) {\n\tdb.open(myConnectionString, callback);\n});\n\nvar queryDb = function(query, callback) {\n\tgetDb(function(err, db) {\n\t\tif (err) return callback(err);\n\t\tdb.query(query, callback);\n\t});\n};\n\nqueryDb(\'some query\', function(err, result) { ... } );\n\nqueryDb(\'some other query\', function(err, result) { ... } );\n```\n\nThe first time `getDb` is called it will try do open a connection to the database.\nAny subsequent calls will just wait for the first call to complete and then call your callback.\n\nA nice property of this pattern is that it *easily* allows us to pass any error caused by `getDb` to the `queryDb` callback.\n\n## Error → No caching\n\nIf the thunk callback is called with an `Error` object as the first argument it will not cache the result\n\n``` js\nvar fails = thunky(function(callback) {\n\tconsole.log(\'returning an error\');\n\tcallback(new Error(\'bad stuff\'));\n});\n\nfails(function(err) { // inner function is called\n\tconsole.log(err);\n});\n\nfails(function(err) { // inner function is called again as it returned an error before\n\tconsole.log(err);\n});\n```\n\n## License\n\nMIT',
+236 silly install resolved     readmeFilename: 'README.md',
+236 silly install resolved     _id: 'thunky@0.1.0',
+236 silly install resolved     dist:
+236 silly install resolved      { shasum: 'bf30146824e2b6e67b0f2d7a4ac8beb26908684e',
+236 silly install resolved        tarball: 'http://registry.npmjs.org/thunky/-/thunky-0.1.0.tgz' },
+236 silly install resolved     _from: 'thunky@>=0.1.0 <0.2.0',
+236 silly install resolved     _npmVersion: '1.2.11',
+236 silly install resolved     _npmUser: { name: 'mafintosh', email: 'mathiasbuus@gmail.com' },
+236 silly install resolved     maintainers: [ [Object] ],
+236 silly install resolved     directories: {},
+236 silly install resolved     _shasum: 'bf30146824e2b6e67b0f2d7a4ac8beb26908684e',
+236 silly install resolved     _resolved: 'https://registry.npmjs.org/thunky/-/thunky-0.1.0.tgz',
+236 silly install resolved     bugs: { url: 'https://github.com/mafintosh/thunky/issues' },
+236 silly install resolved     homepage: 'https://github.com/mafintosh/thunky' },
+236 silly install resolved   { name: 'mongodb',
+236 silly install resolved     description: 'A node.js driver for MongoDB',
+236 silly install resolved     keywords: [ 'mongodb', 'mongo', 'driver', 'db' ],
+236 silly install resolved     version: '1.4.18',
+236 silly install resolved     author: { name: 'Christian Amor Kvalheim', email: 'christkv@gmail.com' },
+236 silly install resolved     contributors:
+236 silly install resolved      [ [Object],
+236 silly install resolved        [Object],
+236 silly install resolved        [Object],
+236 silly install resolved        [Object],
+236 silly install resolved        [Object],
+236 silly install resolved        [Object],
+236 silly install resolved        [Object],
+236 silly install resolved        [Object],
+236 silly install resolved        [Object],
+236 silly install resolved        [Object],
+236 silly install resolved        [Object],
+236 silly install resolved        [Object],
+236 silly install resolved        [Object],
+236 silly install resolved        [Object],
+236 silly install resolved        [Object],
+236 silly install resolved        [Object],
+236 silly install resolved        [Object],
+236 silly install resolved        [Object],
+236 silly install resolved        [Object],
+236 silly install resolved        [Object],
+236 silly install resolved        [Object],
+236 silly install resolved        [Object],
+236 silly install resolved        [Object],
+236 silly install resolved        [Object],
+236 silly install resolved        [Object],
+236 silly install resolved        [Object],
+236 silly install resolved        [Object],
+236 silly install resolved        [Object],
+236 silly install resolved        [Object],
+236 silly install resolved        [Object],
+236 silly install resolved        [Object],
+236 silly install resolved        [Object],
+236 silly install resolved        [Object],
+236 silly install resolved        [Object],
+236 silly install resolved        [Object],
+236 silly install resolved        [Object],
+236 silly install resolved        [Object],
+236 silly install resolved        [Object],
+236 silly install resolved        [Object],
+236 silly install resolved        [Object],
+236 silly install resolved        [Object],
+236 silly install resolved        [Object],
+236 silly install resolved        [Object],
+236 silly install resolved        [Object],
+236 silly install resolved        [Object],
+236 silly install resolved        [Object],
+236 silly install resolved        [Object],
+236 silly install resolved        [Object],
+236 silly install resolved        [Object],
+236 silly install resolved        [Object],
+236 silly install resolved        [Object],
+236 silly install resolved        [Object],
+236 silly install resolved        [Object],
+236 silly install resolved        [Object] ],
+236 silly install resolved     repository:
+236 silly install resolved      { type: 'git',
+236 silly install resolved        url: 'http://github.com/mongodb/node-mongodb-native.git' },
+236 silly install resolved     bugs: { url: 'http://github.com/mongodb/node-mongodb-native/issues' },
+236 silly install resolved     dependencies: { bson: '~0.2', kerberos: '0.0.4', 'readable-stream': 'latest' },
+236 silly install resolved     devDependencies:
+236 silly install resolved      { dox: '0.4.4',
+236 silly install resolved        'uglify-js': '1.2.5',
+236 silly install resolved        ejs: '0.6.1',
+236 silly install resolved        request: '2.12.0',
+236 silly install resolved        nodeunit: '0.7.3',
+236 silly install resolved        markdown: '0.3.1',
+236 silly install resolved        gleak: '0.2.3',
+236 silly install resolved        step: '0.0.5',
+236 silly install resolved        async: '0.1.22',
+236 silly install resolved        integra: '0.0.3',
+236 silly install resolved        optimist: 'latest' },
+236 silly install resolved     optionalDependencies: { kerberos: '0.0.4', 'readable-stream': 'latest' },
+236 silly install resolved     config: { native: false },
+236 silly install resolved     main: './lib/mongodb/index',
+236 silly install resolved     homepage: 'http://mongodb.github.com/node-mongodb-native/',
+236 silly install resolved     directories: { lib: './lib/mongodb' },
+236 silly install resolved     engines: { node: '>=0.6.19' },
+236 silly install resolved     scripts: { test: 'make test_functional' },
+236 silly install resolved     licenses: [ [Object] ],
+236 silly install resolved     _id: 'mongodb@1.4.18',
+236 silly install resolved     _shasum: '0c07ee4082cef68ba11d36dc4c80c0e0f569ec22',
+236 silly install resolved     _from: 'mongodb@1.4.18',
+236 silly install resolved     _npmVersion: '1.4.9',
+236 silly install resolved     _npmUser: { name: 'christkv', email: 'christkv@gmail.com' },
+236 silly install resolved     maintainers: [ [Object] ],
+236 silly install resolved     dist:
+236 silly install resolved      { shasum: '0c07ee4082cef68ba11d36dc4c80c0e0f569ec22',
+236 silly install resolved        tarball: 'http://registry.npmjs.org/mongodb/-/mongodb-1.4.18.tgz' },
+236 silly install resolved     _resolved: 'https://registry.npmjs.org/mongodb/-/mongodb-1.4.18.tgz' } ]
+237 info install readable-stream@1.1.13 into C:\Users\dtt\Documents\GitHub\web_exp02\exp02\node_modules\mongojs
+238 info install thunky@0.1.0 into C:\Users\dtt\Documents\GitHub\web_exp02\exp02\node_modules\mongojs
+239 info install mongodb@1.4.18 into C:\Users\dtt\Documents\GitHub\web_exp02\exp02\node_modules\mongojs
+240 info installOne readable-stream@1.1.13
+241 verbose installOne of readable-stream to C:\Users\dtt\Documents\GitHub\web_exp02\exp02\node_modules\mongojs not in flight; installing
+242 info installOne thunky@0.1.0
+243 verbose installOne of thunky to C:\Users\dtt\Documents\GitHub\web_exp02\exp02\node_modules\mongojs not in flight; installing
+244 info installOne mongodb@1.4.18
+245 verbose installOne of mongodb to C:\Users\dtt\Documents\GitHub\web_exp02\exp02\node_modules\mongojs not in flight; installing
+246 verbose lock using C:\Users\dtt\AppData\Roaming\npm-cache\_locks\readable-stream-8b3a85823009bb1a.lock for C:\Users\dtt\Documents\GitHub\web_exp02\exp02\node_modules\mongojs\node_modules\readable-stream
+247 silly install write writing readable-stream 1.1.13 to C:\Users\dtt\Documents\GitHub\web_exp02\exp02\node_modules\mongojs\node_modules\readable-stream
+248 silly cache addNamed cb readable-stream@1.1.13
+249 verbose unbuild node_modules\mongojs\node_modules\readable-stream
+250 verbose lock using C:\Users\dtt\AppData\Roaming\npm-cache\_locks\thunky-6bf7071e54fd1e40.lock for C:\Users\dtt\Documents\GitHub\web_exp02\exp02\node_modules\mongojs\node_modules\thunky
+251 silly install write writing thunky 0.1.0 to C:\Users\dtt\Documents\GitHub\web_exp02\exp02\node_modules\mongojs\node_modules\thunky
+252 silly cache addNamed cb thunky@0.1.0
+253 verbose unbuild node_modules\mongojs\node_modules\thunky
+254 verbose lock using C:\Users\dtt\AppData\Roaming\npm-cache\_locks\mongodb-de8a45e7ba7a87bc.lock for C:\Users\dtt\Documents\GitHub\web_exp02\exp02\node_modules\mongojs\node_modules\mongodb
+255 verbose gentlyRm vacuuming C:\Users\dtt\Documents\GitHub\web_exp02\exp02\node_modules\mongojs\node_modules\readable-stream
+256 silly install write writing mongodb 1.4.18 to C:\Users\dtt\Documents\GitHub\web_exp02\exp02\node_modules\mongojs\node_modules\mongodb
+257 verbose tar unpack C:\Users\dtt\AppData\Roaming\npm-cache\readable-stream\1.1.13\package.tgz
+258 verbose tar unpacking to C:\Users\dtt\Documents\GitHub\web_exp02\exp02\node_modules\mongojs\node_modules\readable-stream
+259 verbose gentlyRm vacuuming C:\Users\dtt\Documents\GitHub\web_exp02\exp02\node_modules\mongojs\node_modules\readable-stream
+260 verbose gentlyRm vacuuming C:\Users\dtt\Documents\GitHub\web_exp02\exp02\node_modules\mongojs\node_modules\thunky
+261 silly gunzTarPerm modes [ '777', '666' ]
+262 verbose tar unpack C:\Users\dtt\AppData\Roaming\npm-cache\thunky\0.1.0\package.tgz
+263 verbose tar unpacking to C:\Users\dtt\Documents\GitHub\web_exp02\exp02\node_modules\mongojs\node_modules\thunky
+264 verbose gentlyRm vacuuming C:\Users\dtt\Documents\GitHub\web_exp02\exp02\node_modules\mongojs\node_modules\thunky
+265 silly gunzTarPerm modes [ '777', '666' ]
+266 silly cache addNamed cb mongodb@1.4.18
+267 verbose unbuild node_modules\mongojs\node_modules\mongodb
+268 verbose gentlyRm vacuuming C:\Users\dtt\Documents\GitHub\web_exp02\exp02\node_modules\mongojs\node_modules\mongodb
+269 verbose tar unpack C:\Users\dtt\AppData\Roaming\npm-cache\mongodb\1.4.18\package.tgz
+270 verbose tar unpacking to C:\Users\dtt\Documents\GitHub\web_exp02\exp02\node_modules\mongojs\node_modules\mongodb
+271 verbose gentlyRm vacuuming C:\Users\dtt\Documents\GitHub\web_exp02\exp02\node_modules\mongojs\node_modules\mongodb
+272 silly gunzTarPerm modes [ '777', '666' ]
+273 silly gunzTarPerm extractEntry package.json
+274 silly gunzTarPerm modified mode [ 'package.json', 493, 511 ]
+275 silly gunzTarPerm extractEntry LICENSE
+276 silly gunzTarPerm modified mode [ 'LICENSE', 420, 438 ]
+277 silly gunzTarPerm extractEntry index.js
+278 silly gunzTarPerm modified mode [ 'index.js', 493, 511 ]
+279 silly gunzTarPerm extractEntry Makefile
+280 silly gunzTarPerm modified mode [ 'Makefile', 420, 438 ]
+281 silly gunzTarPerm extractEntry Readme.md
+282 silly gunzTarPerm modified mode [ 'Readme.md', 420, 438 ]
+283 silly gunzTarPerm extractEntry .travis.yml
+284 silly gunzTarPerm modified mode [ '.travis.yml', 420, 438 ]
+285 silly gunzTarPerm extractEntry CONTRIBUTING.md
+286 silly gunzTarPerm modified mode [ 'CONTRIBUTING.md', 420, 438 ]
+287 silly gunzTarPerm extractEntry lib/mongodb/admin.js
+288 silly gunzTarPerm modified mode [ 'lib/mongodb/admin.js', 420, 438 ]
+289 silly gunzTarPerm extractEntry lib/mongodb/scope.js
+290 silly gunzTarPerm modified mode [ 'lib/mongodb/scope.js', 420, 438 ]
+291 silly gunzTarPerm extractEntry lib/mongodb/mongo_client.js
+292 silly gunzTarPerm modified mode [ 'lib/mongodb/mongo_client.js', 420, 438 ]
+293 silly gunzTarPerm extractEntry lib/mongodb/collection.js
+294 silly gunzTarPerm modified mode [ 'lib/mongodb/collection.js', 420, 438 ]
+295 silly gunzTarPerm extractEntry package.json
+296 silly gunzTarPerm modified mode [ 'package.json', 436, 438 ]
+297 silly gunzTarPerm extractEntry lib/mongodb/command_cursor.js
+298 silly gunzTarPerm modified mode [ 'lib/mongodb/command_cursor.js', 420, 438 ]
+299 silly gunzTarPerm extractEntry lib/mongodb/index.js
+300 silly gunzTarPerm modified mode [ 'lib/mongodb/index.js', 420, 438 ]
+301 silly gunzTarPerm extractEntry .npmignore
+302 silly gunzTarPerm modified mode [ '.npmignore', 420, 438 ]
+303 silly gunzTarPerm extractEntry README.md
+304 silly gunzTarPerm modified mode [ 'README.md', 436, 438 ]
+305 silly gunzTarPerm extractEntry lib/mongodb/db.js
+306 silly gunzTarPerm modified mode [ 'lib/mongodb/db.js', 420, 438 ]
+307 silly gunzTarPerm extractEntry lib/mongodb/aggregation_cursor.js
+308 silly gunzTarPerm modified mode [ 'lib/mongodb/aggregation_cursor.js', 420, 438 ]
+309 silly gunzTarPerm extractEntry LICENSE
+310 silly gunzTarPerm modified mode [ 'LICENSE', 436, 438 ]
+311 silly gunzTarPerm extractEntry duplex.js
+312 silly gunzTarPerm modified mode [ 'duplex.js', 420, 438 ]
+313 silly gunzTarPerm extractEntry lib/mongodb/cursorstream.js
+314 silly gunzTarPerm modified mode [ 'lib/mongodb/cursorstream.js', 420, 438 ]
+315 silly gunzTarPerm extractEntry lib/mongodb/utils.js
+316 silly gunzTarPerm modified mode [ 'lib/mongodb/utils.js', 420, 438 ]
+317 silly gunzTarPerm extractEntry package.json
+318 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+319 silly gunzTarPerm extractEntry writable.js
+320 silly gunzTarPerm modified mode [ 'writable.js', 420, 438 ]
+321 silly gunzTarPerm extractEntry passthrough.js
+322 silly gunzTarPerm modified mode [ 'passthrough.js', 420, 438 ]
+323 silly gunzTarPerm extractEntry README.md
+324 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+325 silly gunzTarPerm extractEntry index.js
+326 silly gunzTarPerm modified mode [ 'index.js', 420, 438 ]
+327 silly gunzTarPerm extractEntry readable.js
+328 silly gunzTarPerm modified mode [ 'readable.js', 436, 438 ]
+329 silly gunzTarPerm extractEntry transform.js
+330 silly gunzTarPerm modified mode [ 'transform.js', 420, 438 ]
+331 silly gunzTarPerm extractEntry float.patch
+332 silly gunzTarPerm modified mode [ 'float.patch', 436, 438 ]
+333 silly gunzTarPerm extractEntry lib/_stream_duplex.js
+334 silly gunzTarPerm modified mode [ 'lib/_stream_duplex.js', 436, 438 ]
+335 silly gunzTarPerm extractEntry lib/_stream_passthrough.js
+336 silly gunzTarPerm modified mode [ 'lib/_stream_passthrough.js', 436, 438 ]
+337 silly gunzTarPerm extractEntry lib/_stream_readable.js
+338 silly gunzTarPerm modified mode [ 'lib/_stream_readable.js', 436, 438 ]
+339 silly gunzTarPerm extractEntry lib/_stream_transform.js
+340 silly gunzTarPerm modified mode [ 'lib/_stream_transform.js', 436, 438 ]
+341 silly gunzTarPerm extractEntry lib/_stream_writable.js
+342 silly gunzTarPerm modified mode [ 'lib/_stream_writable.js', 436, 438 ]
+343 silly gunzTarPerm extractEntry lib/mongodb/cursor.js
+344 silly gunzTarPerm modified mode [ 'lib/mongodb/cursor.js', 420, 438 ]
+345 silly gunzTarPerm extractEntry lib/mongodb/connection/base.js
+346 silly gunzTarPerm modified mode [ 'lib/mongodb/connection/base.js', 420, 438 ]
+347 silly gunzTarPerm extractEntry lib/mongodb/connection/connection.js
+348 silly gunzTarPerm modified mode [ 'lib/mongodb/connection/connection.js', 420, 438 ]
+349 silly gunzTarPerm extractEntry lib/mongodb/connection/connection_pool.js
+350 silly gunzTarPerm modified mode [ 'lib/mongodb/connection/connection_pool.js', 420, 438 ]
+351 silly gunzTarPerm extractEntry lib/mongodb/connection/connection_utils.js
+352 silly gunzTarPerm modified mode [ 'lib/mongodb/connection/connection_utils.js', 420, 438 ]
+353 info preinstall thunky@0.1.0
+354 silly install resolved []
+355 verbose about to build C:\Users\dtt\Documents\GitHub\web_exp02\exp02\node_modules\mongojs\node_modules\thunky
+356 info build C:\Users\dtt\Documents\GitHub\web_exp02\exp02\node_modules\mongojs\node_modules\thunky
+357 verbose linkStuff [ false,
+357 verbose linkStuff   false,
+357 verbose linkStuff   false,
+357 verbose linkStuff   'C:\\Users\\dtt\\Documents\\GitHub\\web_exp02\\exp02\\node_modules\\mongojs\\node_modules' ]
+358 info linkStuff thunky@0.1.0
+359 verbose linkBins thunky@0.1.0
+360 verbose linkMans thunky@0.1.0
+361 verbose rebuildBundles thunky@0.1.0
+362 info install thunky@0.1.0
+363 info postinstall thunky@0.1.0
+364 verbose unlock done using C:\Users\dtt\AppData\Roaming\npm-cache\_locks\thunky-6bf7071e54fd1e40.lock for C:\Users\dtt\Documents\GitHub\web_exp02\exp02\node_modules\mongojs\node_modules\thunky
+365 silly gunzTarPerm extractEntry lib/mongodb/connection/mongos.js
+366 silly gunzTarPerm modified mode [ 'lib/mongodb/connection/mongos.js', 420, 438 ]
+367 silly gunzTarPerm extractEntry lib/mongodb/connection/read_preference.js
+368 silly gunzTarPerm modified mode [ 'lib/mongodb/connection/read_preference.js', 420, 438 ]
+369 silly gunzTarPerm extractEntry lib/mongodb/connection/server.js
+370 silly gunzTarPerm modified mode [ 'lib/mongodb/connection/server.js', 420, 438 ]
+371 silly gunzTarPerm extractEntry lib/mongodb/connection/server_capabilities.js
+372 silly gunzTarPerm modified mode [ 'lib/mongodb/connection/server_capabilities.js', 420, 438 ]
+373 silly gunzTarPerm extractEntry lib/mongodb/connection/url_parser.js
+374 silly gunzTarPerm modified mode [ 'lib/mongodb/connection/url_parser.js', 420, 438 ]
+375 silly gunzTarPerm extractEntry lib/mongodb/connection/repl_set/ha.js
+376 silly gunzTarPerm modified mode [ 'lib/mongodb/connection/repl_set/ha.js', 420, 438 ]
+377 silly gunzTarPerm extractEntry lib/mongodb/connection/repl_set/options.js
+378 silly gunzTarPerm modified mode [ 'lib/mongodb/connection/repl_set/options.js', 420, 438 ]
+379 silly gunzTarPerm extractEntry lib/mongodb/connection/repl_set/repl_set.js
+380 silly gunzTarPerm modified mode [ 'lib/mongodb/connection/repl_set/repl_set.js', 420, 438 ]
+381 silly gunzTarPerm extractEntry lib/mongodb/connection/repl_set/repl_set_state.js
+382 silly gunzTarPerm modified mode [ 'lib/mongodb/connection/repl_set/repl_set_state.js', 420, 438 ]
+383 silly gunzTarPerm extractEntry lib/mongodb/connection/repl_set/strategies/ping_strategy.js
+384 silly gunzTarPerm modified mode [ 'lib/mongodb/connection/repl_set/strategies/ping_strategy.js',
+384 silly gunzTarPerm   420,
+384 silly gunzTarPerm   438 ]
+385 silly gunzTarPerm extractEntry lib/mongodb/connection/repl_set/strategies/statistics_strategy.js
+386 silly gunzTarPerm modified mode [ 'lib/mongodb/connection/repl_set/strategies/statistics_strategy.js',
+386 silly gunzTarPerm   420,
+386 silly gunzTarPerm   438 ]
+387 silly gunzTarPerm extractEntry lib/mongodb/gridfs/chunk.js
+388 silly gunzTarPerm modified mode [ 'lib/mongodb/gridfs/chunk.js', 420, 438 ]
+389 silly gunzTarPerm extractEntry lib/mongodb/gridfs/grid.js
+390 silly gunzTarPerm modified mode [ 'lib/mongodb/gridfs/grid.js', 420, 438 ]
+391 silly gunzTarPerm extractEntry lib/mongodb/gridfs/gridstore.js
+392 silly gunzTarPerm modified mode [ 'lib/mongodb/gridfs/gridstore.js', 420, 438 ]
+393 silly gunzTarPerm extractEntry lib/mongodb/gridfs/readstream.js
+394 silly gunzTarPerm modified mode [ 'lib/mongodb/gridfs/readstream.js', 420, 438 ]
+395 silly gunzTarPerm extractEntry lib/mongodb/commands/base_command.js
+396 silly gunzTarPerm modified mode [ 'lib/mongodb/commands/base_command.js', 420, 438 ]
+397 silly gunzTarPerm extractEntry lib/mongodb/commands/db_command.js
+398 silly gunzTarPerm modified mode [ 'lib/mongodb/commands/db_command.js', 420, 438 ]
+399 silly gunzTarPerm extractEntry lib/mongodb/commands/delete_command.js
+400 silly gunzTarPerm modified mode [ 'lib/mongodb/commands/delete_command.js', 420, 438 ]
+401 silly gunzTarPerm extractEntry lib/mongodb/commands/get_more_command.js
+402 silly gunzTarPerm modified mode [ 'lib/mongodb/commands/get_more_command.js', 420, 438 ]
+403 info preinstall readable-stream@1.1.13
+404 silly prepareForInstallMany adding core-util-is@~1.0.0 from readable-stream dependencies
+405 silly prepareForInstallMany adding isarray@0.0.1 from readable-stream dependencies
+406 silly prepareForInstallMany adding string_decoder@~0.10.x from readable-stream dependencies
+407 silly prepareForInstallMany adding inherits@~2.0.1 from readable-stream dependencies
+408 silly gunzTarPerm extractEntry lib/mongodb/commands/insert_command.js
+409 silly gunzTarPerm modified mode [ 'lib/mongodb/commands/insert_command.js', 420, 438 ]
+410 silly gunzTarPerm extractEntry lib/mongodb/commands/kill_cursor_command.js
+411 silly gunzTarPerm modified mode [ 'lib/mongodb/commands/kill_cursor_command.js', 420, 438 ]
+412 silly gunzTarPerm extractEntry lib/mongodb/commands/query_command.js
+413 silly gunzTarPerm modified mode [ 'lib/mongodb/commands/query_command.js', 420, 438 ]
+414 silly gunzTarPerm extractEntry lib/mongodb/commands/update_command.js
+415 silly gunzTarPerm modified mode [ 'lib/mongodb/commands/update_command.js', 420, 438 ]
+416 silly cache add args [ 'core-util-is@~1.0.0', null ]
+417 verbose cache add spec core-util-is@~1.0.0
+418 silly cache add args [ 'isarray@0.0.1', null ]
+419 verbose cache add spec isarray@0.0.1
+420 silly cache add args [ 'string_decoder@~0.10.x', null ]
+421 verbose cache add spec string_decoder@~0.10.x
+422 silly cache add args [ 'inherits@~2.0.1', null ]
+423 verbose cache add spec inherits@~2.0.1
+424 silly gunzTarPerm extractEntry lib/mongodb/collection/aggregation.js
+425 silly gunzTarPerm modified mode [ 'lib/mongodb/collection/aggregation.js', 420, 438 ]
+426 silly gunzTarPerm extractEntry lib/mongodb/collection/commands.js
+427 silly gunzTarPerm modified mode [ 'lib/mongodb/collection/commands.js', 420, 438 ]
+428 silly gunzTarPerm extractEntry lib/mongodb/collection/core.js
+429 silly gunzTarPerm modified mode [ 'lib/mongodb/collection/core.js', 420, 438 ]
+430 silly cache add parsed spec { raw: 'core-util-is@~1.0.0',
+430 silly cache add   scope: null,
+430 silly cache add   name: 'core-util-is',
+430 silly cache add   rawSpec: '~1.0.0',
+430 silly cache add   spec: '>=1.0.0 <1.1.0',
+430 silly cache add   type: 'range' }
+431 verbose addNamed core-util-is@>=1.0.0 <1.1.0
+432 silly addNamed semver.valid null
+433 silly addNamed semver.validRange >=1.0.0 <1.1.0
+434 silly addNameRange { name: 'core-util-is', range: '>=1.0.0 <1.1.0', hasData: false }
+435 verbose mapToRegistry name core-util-is
+436 verbose mapToRegistry uri https://registry.npmjs.org/core-util-is
+437 verbose addNameRange registry:https://registry.npmjs.org/core-util-is not in flight; fetching
+438 silly cache add parsed spec { raw: 'isarray@0.0.1',
+438 silly cache add   scope: null,
+438 silly cache add   name: 'isarray',
+438 silly cache add   rawSpec: '0.0.1',
+438 silly cache add   spec: '0.0.1',
+438 silly cache add   type: 'version' }
+439 verbose addNamed isarray@0.0.1
+440 silly addNamed semver.valid 0.0.1
+441 silly addNamed semver.validRange 0.0.1
+442 verbose mapToRegistry name isarray
+443 verbose mapToRegistry uri https://registry.npmjs.org/isarray
+444 verbose addNameVersion registry:https://registry.npmjs.org/isarray not in flight; fetching
+445 silly cache add parsed spec { raw: 'string_decoder@~0.10.x',
+445 silly cache add   scope: null,
+445 silly cache add   name: 'string_decoder',
+445 silly cache add   rawSpec: '~0.10.x',
+445 silly cache add   spec: '>=0.10.0 <0.11.0',
+445 silly cache add   type: 'range' }
+446 verbose addNamed string_decoder@>=0.10.0 <0.11.0
+447 silly addNamed semver.valid null
+448 silly addNamed semver.validRange >=0.10.0 <0.11.0
+449 silly addNameRange { name: 'string_decoder',
+449 silly addNameRange   range: '>=0.10.0 <0.11.0',
+449 silly addNameRange   hasData: false }
+450 verbose mapToRegistry name string_decoder
+451 verbose mapToRegistry uri https://registry.npmjs.org/string_decoder
+452 verbose addNameRange registry:https://registry.npmjs.org/string_decoder not in flight; fetching
+453 silly cache add parsed spec { raw: 'inherits@~2.0.1',
+453 silly cache add   scope: null,
+453 silly cache add   name: 'inherits',
+453 silly cache add   rawSpec: '~2.0.1',
+453 silly cache add   spec: '>=2.0.1 <2.1.0',
+453 silly cache add   type: 'range' }
+454 verbose addNamed inherits@>=2.0.1 <2.1.0
+455 silly addNamed semver.valid null
+456 silly addNamed semver.validRange >=2.0.1 <2.1.0
+457 silly addNameRange { name: 'inherits', range: '>=2.0.1 <2.1.0', hasData: false }
+458 verbose mapToRegistry name inherits
+459 verbose mapToRegistry uri https://registry.npmjs.org/inherits
+460 verbose addNameRange registry:https://registry.npmjs.org/inherits not in flight; fetching
+461 verbose request on initialization, where is /core-util-is
+462 verbose request after pass 1, where is /core-util-is
+463 verbose request url raw /core-util-is
+464 verbose request resolving registry [ 'https://registry.npmjs.org/', './core-util-is' ]
+465 verbose request after pass 2, where is https://registry.npmjs.org/core-util-is
+466 verbose request no auth needed
+467 info attempt registry request try #1 at 02:50:17
+468 verbose etag "8GK6OUBFPCHKF5I20FLUACLGY"
+469 http request GET https://registry.npmjs.org/core-util-is
+470 verbose request on initialization, where is /inherits
+471 verbose request after pass 1, where is /inherits
+472 verbose request url raw /inherits
+473 verbose request resolving registry [ 'https://registry.npmjs.org/', './inherits' ]
+474 verbose request after pass 2, where is https://registry.npmjs.org/inherits
+475 verbose request no auth needed
+476 info attempt registry request try #1 at 02:50:17
+477 verbose etag "4HKEWVWX7W0PKAF3UJZOADCGX"
+478 http request GET https://registry.npmjs.org/inherits
+479 silly gunzTarPerm extractEntry lib/mongodb/collection/geo.js
+480 silly gunzTarPerm modified mode [ 'lib/mongodb/collection/geo.js', 420, 438 ]
+481 silly gunzTarPerm extractEntry lib/mongodb/collection/index.js
+482 silly gunzTarPerm modified mode [ 'lib/mongodb/collection/index.js', 420, 438 ]
+483 silly gunzTarPerm extractEntry lib/mongodb/collection/query.js
+484 silly gunzTarPerm modified mode [ 'lib/mongodb/collection/query.js', 420, 438 ]
+485 silly gunzTarPerm extractEntry lib/mongodb/collection/shared.js
+486 silly gunzTarPerm modified mode [ 'lib/mongodb/collection/shared.js', 420, 438 ]
+487 verbose request on initialization, where is /isarray
+488 verbose request after pass 1, where is /isarray
+489 verbose request url raw /isarray
+490 verbose request resolving registry [ 'https://registry.npmjs.org/', './isarray' ]
+491 verbose request after pass 2, where is https://registry.npmjs.org/isarray
+492 verbose request no auth needed
+493 info attempt registry request try #1 at 02:50:17
+494 verbose etag "AI6YZ768HN0R3YEJSMBHLP9JL"
+495 http request GET https://registry.npmjs.org/isarray
+496 verbose request on initialization, where is /string_decoder
+497 verbose request after pass 1, where is /string_decoder
+498 verbose request url raw /string_decoder
+499 verbose request resolving registry [ 'https://registry.npmjs.org/', './string_decoder' ]
+500 verbose request after pass 2, where is https://registry.npmjs.org/string_decoder
+501 verbose request no auth needed
+502 info attempt registry request try #1 at 02:50:17
+503 verbose etag "2419XDLWSZIMU58NXHF48KRW5"
+504 http request GET https://registry.npmjs.org/string_decoder
+505 silly gunzTarPerm extractEntry lib/mongodb/collection/batch/common.js
+506 silly gunzTarPerm modified mode [ 'lib/mongodb/collection/batch/common.js', 420, 438 ]
+507 silly gunzTarPerm extractEntry lib/mongodb/collection/batch/ordered.js
+508 silly gunzTarPerm modified mode [ 'lib/mongodb/collection/batch/ordered.js', 420, 438 ]
+509 silly gunzTarPerm extractEntry lib/mongodb/collection/batch/unordered.js
+510 silly gunzTarPerm modified mode [ 'lib/mongodb/collection/batch/unordered.js', 420, 438 ]
+511 silly gunzTarPerm extractEntry lib/mongodb/responses/mongo_reply.js
+512 silly gunzTarPerm modified mode [ 'lib/mongodb/responses/mongo_reply.js', 420, 438 ]
+513 silly gunzTarPerm extractEntry lib/mongodb/auth/mongodb_cr.js
+514 silly gunzTarPerm modified mode [ 'lib/mongodb/auth/mongodb_cr.js', 420, 438 ]
+515 silly gunzTarPerm extractEntry lib/mongodb/auth/mongodb_gssapi.js
+516 silly gunzTarPerm modified mode [ 'lib/mongodb/auth/mongodb_gssapi.js', 420, 438 ]
+517 silly gunzTarPerm extractEntry lib/mongodb/auth/mongodb_plain.js
+518 silly gunzTarPerm modified mode [ 'lib/mongodb/auth/mongodb_plain.js', 420, 438 ]
+519 silly gunzTarPerm extractEntry lib/mongodb/auth/mongodb_scram.js
+520 silly gunzTarPerm modified mode [ 'lib/mongodb/auth/mongodb_scram.js', 420, 438 ]
+521 silly gunzTarPerm extractEntry lib/mongodb/auth/mongodb_sspi.js
+522 silly gunzTarPerm modified mode [ 'lib/mongodb/auth/mongodb_sspi.js', 420, 438 ]
+523 silly gunzTarPerm extractEntry lib/mongodb/auth/mongodb_x509.js
+524 silly gunzTarPerm modified mode [ 'lib/mongodb/auth/mongodb_x509.js', 420, 438 ]
+525 silly gunzTarPerm extractEntry .gitmodules
+526 silly gunzTarPerm modified mode [ '.gitmodules', 420, 438 ]
+527 http 304 https://registry.npmjs.org/core-util-is
+528 silly registry.get cb [ 304,
+528 silly registry.get   { date: 'Sat, 18 Oct 2014 06:50:16 GMT',
+528 silly registry.get     server: 'Apache',
+528 silly registry.get     via: '1.1 varnish',
+528 silly registry.get     'last-modified': 'Sat, 18 Oct 2014 06:50:16 GMT',
+528 silly registry.get     'cache-control': 'max-age=60',
+528 silly registry.get     etag: '"8GK6OUBFPCHKF5I20FLUACLGY"',
+528 silly registry.get     age: '1',
+528 silly registry.get     'x-served-by': 'cache-jfk1027-JFK',
+528 silly registry.get     'x-cache': 'HIT',
+528 silly registry.get     'x-cache-hits': '2',
+528 silly registry.get     'x-timer': 'S1413615016.730683,VS0,VE0',
+528 silly registry.get     vary: 'Accept',
+528 silly registry.get     'content-length': '0',
+528 silly registry.get     'keep-alive': 'timeout=10, max=50',
+528 silly registry.get     connection: 'Keep-Alive' } ]
+529 verbose etag https://registry.npmjs.org/core-util-is from cache
+530 silly addNameRange number 2 { name: 'core-util-is', range: '>=1.0.0 <1.1.0', hasData: true }
+531 silly addNameRange versions [ 'core-util-is', [ '1.0.0', '1.0.1' ] ]
+532 verbose addNamed core-util-is@1.0.1
+533 silly addNamed semver.valid 1.0.1
+534 silly addNamed semver.validRange 1.0.1
+535 silly cache afterAdd core-util-is@1.0.1
+536 verbose afterAdd C:\Users\dtt\AppData\Roaming\npm-cache\core-util-is\1.0.1\package\package.json not in flight; writing
+537 verbose afterAdd C:\Users\dtt\AppData\Roaming\npm-cache\core-util-is\1.0.1\package\package.json written
+538 http 304 https://registry.npmjs.org/inherits
+539 silly registry.get cb [ 304,
+539 silly registry.get   { date: 'Sat, 18 Oct 2014 06:50:16 GMT',
+539 silly registry.get     server: 'Apache',
+539 silly registry.get     via: '1.1 varnish',
+539 silly registry.get     'last-modified': 'Sat, 18 Oct 2014 06:34:22 GMT',
+539 silly registry.get     'cache-control': 'max-age=60',
+539 silly registry.get     etag: '"4HKEWVWX7W0PKAF3UJZOADCGX"',
+539 silly registry.get     age: '4',
+539 silly registry.get     'x-served-by': 'cache-jfk1035-JFK',
+539 silly registry.get     'x-cache': 'HIT',
+539 silly registry.get     'x-cache-hits': '149',
+539 silly registry.get     'x-timer': 'S1413615016.754992,VS0,VE0',
+539 silly registry.get     vary: 'Accept',
+539 silly registry.get     'content-length': '0',
+539 silly registry.get     'keep-alive': 'timeout=10, max=50',
+539 silly registry.get     connection: 'Keep-Alive' } ]
+540 verbose etag https://registry.npmjs.org/inherits from cache
+541 http 304 https://registry.npmjs.org/string_decoder
+542 silly registry.get cb [ 304,
+542 silly registry.get   { date: 'Sat, 18 Oct 2014 06:50:16 GMT',
+542 silly registry.get     server: 'Apache',
+542 silly registry.get     via: '1.1 varnish',
+542 silly registry.get     'last-modified': 'Sat, 18 Oct 2014 06:50:05 GMT',
+542 silly registry.get     'cache-control': 'max-age=60',
+542 silly registry.get     etag: '"2419XDLWSZIMU58NXHF48KRW5"',
+542 silly registry.get     age: '25',
+542 silly registry.get     'x-served-by': 'cache-jfk1027-JFK',
+542 silly registry.get     'x-cache': 'HIT',
+542 silly registry.get     'x-cache-hits': '3',
+542 silly registry.get     'x-timer': 'S1413615016.754791,VS0,VE0',
+542 silly registry.get     vary: 'Accept',
+542 silly registry.get     'content-length': '0',
+542 silly registry.get     'keep-alive': 'timeout=10, max=50',
+542 silly registry.get     connection: 'Keep-Alive' } ]
+543 verbose etag https://registry.npmjs.org/string_decoder from cache
+544 http 304 https://registry.npmjs.org/isarray
+545 silly registry.get cb [ 304,
+545 silly registry.get   { date: 'Sat, 18 Oct 2014 06:50:16 GMT',
+545 silly registry.get     server: 'Apache',
+545 silly registry.get     via: '1.1 varnish',
+545 silly registry.get     'last-modified': 'Sat, 18 Oct 2014 06:50:16 GMT',
+545 silly registry.get     'cache-control': 'max-age=60',
+545 silly registry.get     etag: '"AI6YZ768HN0R3YEJSMBHLP9JL"',
+545 silly registry.get     age: '854465',
+545 silly registry.get     'x-served-by': 'cache-jfk1029-JFK',
+545 silly registry.get     'x-cache': 'HIT',
+545 silly registry.get     'x-cache-hits': '1',
+545 silly registry.get     'x-timer': 'S1413615016.755064,VS0,VE0',
+545 silly registry.get     vary: 'Accept',
+545 silly registry.get     'content-length': '0',
+545 silly registry.get     'keep-alive': 'timeout=10, max=50',
+545 silly registry.get     connection: 'Keep-Alive' } ]
+546 verbose etag https://registry.npmjs.org/isarray from cache
+547 silly addNameRange number 2 { name: 'inherits', range: '>=2.0.1 <2.1.0', hasData: true }
+548 silly addNameRange versions [ 'inherits', [ '1.0.0', '2.0.0', '2.0.1' ] ]
+549 verbose addNamed inherits@2.0.1
+550 silly addNamed semver.valid 2.0.1
+551 silly addNamed semver.validRange 2.0.1
+552 silly addNameRange number 2 { name: 'string_decoder',
+552 silly addNameRange   range: '>=0.10.0 <0.11.0',
+552 silly addNameRange   hasData: true }
+553 silly addNameRange versions [ 'string_decoder',
+553 silly addNameRange   [ '0.0.0',
+553 silly addNameRange     '0.0.1',
+553 silly addNameRange     '0.10.24',
+553 silly addNameRange     '0.11.10',
+553 silly addNameRange     '0.10.25',
+553 silly addNameRange     '0.11.10-1',
+553 silly addNameRange     '0.10.25-1',
+553 silly addNameRange     '0.10.31' ] ]
+554 verbose addNamed string_decoder@0.10.31
+555 silly addNamed semver.valid 0.10.31
+556 silly addNamed semver.validRange 0.10.31
+557 silly cache afterAdd inherits@2.0.1
+558 verbose afterAdd C:\Users\dtt\AppData\Roaming\npm-cache\inherits\2.0.1\package\package.json not in flight; writing
+559 silly cache afterAdd isarray@0.0.1
+560 verbose afterAdd C:\Users\dtt\AppData\Roaming\npm-cache\isarray\0.0.1\package\package.json not in flight; writing
+561 verbose afterAdd C:\Users\dtt\AppData\Roaming\npm-cache\inherits\2.0.1\package\package.json written
+562 verbose afterAdd C:\Users\dtt\AppData\Roaming\npm-cache\isarray\0.0.1\package\package.json written
+563 silly cache afterAdd string_decoder@0.10.31
+564 verbose afterAdd C:\Users\dtt\AppData\Roaming\npm-cache\string_decoder\0.10.31\package\package.json not in flight; writing
+565 verbose afterAdd C:\Users\dtt\AppData\Roaming\npm-cache\string_decoder\0.10.31\package\package.json written
+566 silly install resolved [ { name: 'core-util-is',
+566 silly install resolved     version: '1.0.1',
+566 silly install resolved     description: 'The `util.is*` functions introduced in Node v0.12.',
+566 silly install resolved     main: 'lib/util.js',
+566 silly install resolved     repository: { type: 'git', url: 'git://github.com/isaacs/core-util-is' },
+566 silly install resolved     keywords:
+566 silly install resolved      [ 'util',
+566 silly install resolved        'isBuffer',
+566 silly install resolved        'isArray',
+566 silly install resolved        'isNumber',
+566 silly install resolved        'isString',
+566 silly install resolved        'isRegExp',
+566 silly install resolved        'isThis',
+566 silly install resolved        'isThat',
+566 silly install resolved        'polyfill' ],
+566 silly install resolved     author:
+566 silly install resolved      { name: 'Isaac Z. Schlueter',
+566 silly install resolved        email: 'i@izs.me',
+566 silly install resolved        url: 'http://blog.izs.me/' },
+566 silly install resolved     license: 'MIT',
+566 silly install resolved     bugs: { url: 'https://github.com/isaacs/core-util-is/issues' },
+566 silly install resolved     readme: '# core-util-is\n\nThe `util.is*` functions introduced in Node v0.12.\n',
+566 silly install resolved     readmeFilename: 'README.md',
+566 silly install resolved     homepage: 'https://github.com/isaacs/core-util-is',
+566 silly install resolved     _id: 'core-util-is@1.0.1',
+566 silly install resolved     dist:
+566 silly install resolved      { shasum: '6b07085aef9a3ccac6ee53bf9d3df0c1521a5538',
+566 silly install resolved        tarball: 'http://registry.npmjs.org/core-util-is/-/core-util-is-1.0.1.tgz' },
+566 silly install resolved     _from: 'core-util-is@>=1.0.0 <1.1.0',
+566 silly install resolved     _npmVersion: '1.3.23',
+566 silly install resolved     _npmUser: { name: 'isaacs', email: 'i@izs.me' },
+566 silly install resolved     maintainers: [ [Object] ],
+566 silly install resolved     directories: {},
+566 silly install resolved     _shasum: '6b07085aef9a3ccac6ee53bf9d3df0c1521a5538',
+566 silly install resolved     _resolved: 'https://registry.npmjs.org/core-util-is/-/core-util-is-1.0.1.tgz',
+566 silly install resolved     scripts: {} },
+566 silly install resolved   { name: 'inherits',
+566 silly install resolved     description: 'Browser-friendly inheritance fully compatible with standard node.js inherits()',
+566 silly install resolved     version: '2.0.1',
+566 silly install resolved     keywords:
+566 silly install resolved      [ 'inheritance',
+566 silly install resolved        'class',
+566 silly install resolved        'klass',
+566 silly install resolved        'oop',
+566 silly install resolved        'object-oriented',
+566 silly install resolved        'inherits',
+566 silly install resolved        'browser',
+566 silly install resolved        'browserify' ],
+566 silly install resolved     main: './inherits.js',
+566 silly install resolved     browser: './inherits_browser.js',
+566 silly install resolved     repository: { type: 'git', url: 'git://github.com/isaacs/inherits' },
+566 silly install resolved     license: 'ISC',
+566 silly install resolved     scripts: { test: 'node test' },
+566 silly install resolved     readme: 'Browser-friendly inheritance fully compatible with standard node.js\n[inherits](http://nodejs.org/api/util.html#util_util_inherits_constructor_superconstructor).\n\nThis package exports standard `inherits` from node.js `util` module in\nnode environment, but also provides alternative browser-friendly\nimplementation through [browser\nfield](https://gist.github.com/shtylman/4339901). Alternative\nimplementation is a literal copy of standard one located in standalone\nmodule to avoid requiring of `util`. It also has a shim for old\nbrowsers with no `Object.create` support.\n\nWhile keeping you sure you are using standard `inherits`\nimplementation in node.js environment, it allows bundlers such as\n[browserify](https://github.com/substack/node-browserify) to not\ninclude full `util` package to your client code if all you need is\njust `inherits` function. It worth, because browser shim for `util`\npackage is large and `inherits` is often the single function you need\nfrom it.\n\nIt\'s recommended to use this package instead of\n`require(\'util\').inherits` for any code that has chances to be used\nnot only in node.js but in browser too.\n\n## usage\n\n```js\nvar inherits = require(\'inherits\');\n// then use exactly as the standard one\n```\n\n## note on version ~1.0\n\nVersion ~1.0 had completely different motivation and is not compatible\nneither with 2.0 nor with standard node.js `inherits`.\n\nIf you are using version ~1.0 and planning to switch to ~2.0, be\ncareful:\n\n* new version uses `super_` instead of `super` for referencing\n  superclass\n* new version overwrites current prototype while old one preserves any\n  existing fields on it\n',
+566 silly install resolved     readmeFilename: 'README.md',
+566 silly install resolved     bugs: { url: 'https://github.com/isaacs/inherits/issues' },
+566 silly install resolved     _id: 'inherits@2.0.1',
+566 silly install resolved     dist:
+566 silly install resolved      { shasum: 'b17d08d326b4423e568eff719f91b0b1cbdf69f1',
+566 silly install resolved        tarball: 'http://registry.npmjs.org/inherits/-/inherits-2.0.1.tgz' },
+566 silly install resolved     _from: 'inherits@>=2.0.1 <2.1.0',
+566 silly install resolved     _npmVersion: '1.3.8',
+566 silly install resolved     _npmUser: { name: 'isaacs', email: 'i@izs.me' },
+566 silly install resolved     maintainers: [ [Object] ],
+566 silly install resolved     directories: {},
+566 silly install resolved     _shasum: 'b17d08d326b4423e568eff719f91b0b1cbdf69f1',
+566 silly install resolved     _resolved: 'https://registry.npmjs.org/inherits/-/inherits-2.0.1.tgz',
+566 silly install resolved     homepage: 'https://github.com/isaacs/inherits' },
+566 silly install resolved   { name: 'isarray',
+566 silly install resolved     description: 'Array#isArray for older browsers',
+566 silly install resolved     version: '0.0.1',
+566 silly install resolved     repository:
+566 silly install resolved      { type: 'git',
+566 silly install resolved        url: 'git://github.com/juliangruber/isarray.git' },
+566 silly install resolved     homepage: 'https://github.com/juliangruber/isarray',
+566 silly install resolved     main: 'index.js',
+566 silly install resolved     scripts: { test: 'tap test/*.js' },
+566 silly install resolved     dependencies: {},
+566 silly install resolved     devDependencies: { tap: '*' },
+566 silly install resolved     keywords: [ 'browser', 'isarray', 'array' ],
+566 silly install resolved     author:
+566 silly install resolved      { name: 'Julian Gruber',
+566 silly install resolved        email: 'mail@juliangruber.com',
+566 silly install resolved        url: 'http://juliangruber.com' },
+566 silly install resolved     license: 'MIT',
+566 silly install resolved     readme: '\n# isarray\n\n`Array#isArray` for older browsers.\n\n## Usage\n\n```js\nvar isArray = require(\'isarray\');\n\nconsole.log(isArray([])); // => true\nconsole.log(isArray({})); // => false\n```\n\n## Installation\n\nWith [npm](http://npmjs.org) do\n\n```bash\n$ npm install isarray\n```\n\nThen bundle for the browser with\n[browserify](https://github.com/substack/browserify).\n\nWith [component](http://component.io) do\n\n```bash\n$ component install juliangruber/isarray\n```\n\n## License\n\n(MIT)\n\nCopyright (c) 2013 Julian Gruber &lt;julian@juliangruber.com&gt;\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of\nthis software and associated documentation files (the "Software"), to deal in\nthe Software without restriction, including without limitation the rights to\nuse, copy, modify, merge, publish, distribute, sublicense, and/or sell copies\nof the Software, and to permit persons to whom the Software is furnished to do\nso, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.\n',
+566 silly install resolved     readmeFilename: 'README.md',
+566 silly install resolved     _id: 'isarray@0.0.1',
+566 silly install resolved     dist:
+566 silly install resolved      { shasum: '8a18acfca9a8f4177e09abfc6038939b05d1eedf',
+566 silly install resolved        tarball: 'http://registry.npmjs.org/isarray/-/isarray-0.0.1.tgz' },
+566 silly install resolved     _from: 'isarray@0.0.1',
+566 silly install resolved     _npmVersion: '1.2.18',
+566 silly install resolved     _npmUser: { name: 'juliangruber', email: 'julian@juliangruber.com' },
+566 silly install resolved     maintainers: [ [Object] ],
+566 silly install resolved     directories: {},
+566 silly install resolved     _shasum: '8a18acfca9a8f4177e09abfc6038939b05d1eedf',
+566 silly install resolved     _resolved: 'https://registry.npmjs.org/isarray/-/isarray-0.0.1.tgz',
+566 silly install resolved     bugs: { url: 'https://github.com/juliangruber/isarray/issues' } },
+566 silly install resolved   { name: 'string_decoder',
+566 silly install resolved     version: '0.10.31',
+566 silly install resolved     description: 'The string_decoder module from Node core',
+566 silly install resolved     main: 'index.js',
+566 silly install resolved     dependencies: {},
+566 silly install resolved     devDependencies: { tap: '~0.4.8' },
+566 silly install resolved     scripts: { test: 'tap test/simple/*.js' },
+566 silly install resolved     repository:
+566 silly install resolved      { type: 'git',
+566 silly install resolved        url: 'git://github.com/rvagg/string_decoder.git' },
+566 silly install resolved     homepage: 'https://github.com/rvagg/string_decoder',
+566 silly install resolved     keywords: [ 'string', 'decoder', 'browser', 'browserify' ],
+566 silly install resolved     license: 'MIT',
+566 silly install resolved     gitHead: 'd46d4fd87cf1d06e031c23f1ba170ca7d4ade9a0',
+566 silly install resolved     bugs: { url: 'https://github.com/rvagg/string_decoder/issues' },
+566 silly install resolved     _id: 'string_decoder@0.10.31',
+566 silly install resolved     _shasum: '62e203bc41766c6c28c9fc84301dab1c5310fa94',
+566 silly install resolved     _from: 'string_decoder@>=0.10.0 <0.11.0',
+566 silly install resolved     _npmVersion: '1.4.23',
+566 silly install resolved     _npmUser: { name: 'rvagg', email: 'rod@vagg.org' },
+566 silly install resolved     maintainers: [ [Object], [Object] ],
+566 silly install resolved     dist:
+566 silly install resolved      { shasum: '62e203bc41766c6c28c9fc84301dab1c5310fa94',
+566 silly install resolved        tarball: 'http://registry.npmjs.org/string_decoder/-/string_decoder-0.10.31.tgz' },
+566 silly install resolved     directories: {},
+566 silly install resolved     _resolved: 'https://registry.npmjs.org/string_decoder/-/string_decoder-0.10.31.tgz',
+566 silly install resolved     readme: 'ERROR: No README data found!' } ]
+567 info install core-util-is@1.0.1 into C:\Users\dtt\Documents\GitHub\web_exp02\exp02\node_modules\mongojs\node_modules\readable-stream
+568 info install inherits@2.0.1 into C:\Users\dtt\Documents\GitHub\web_exp02\exp02\node_modules\mongojs\node_modules\readable-stream
+569 info install isarray@0.0.1 into C:\Users\dtt\Documents\GitHub\web_exp02\exp02\node_modules\mongojs\node_modules\readable-stream
+570 info install string_decoder@0.10.31 into C:\Users\dtt\Documents\GitHub\web_exp02\exp02\node_modules\mongojs\node_modules\readable-stream
+571 info installOne core-util-is@1.0.1
+572 verbose installOne of core-util-is to C:\Users\dtt\Documents\GitHub\web_exp02\exp02\node_modules\mongojs\node_modules\readable-stream not in flight; installing
+573 info installOne inherits@2.0.1
+574 verbose installOne of inherits to C:\Users\dtt\Documents\GitHub\web_exp02\exp02\node_modules\mongojs\node_modules\readable-stream not in flight; installing
+575 info installOne isarray@0.0.1
+576 verbose installOne of isarray to C:\Users\dtt\Documents\GitHub\web_exp02\exp02\node_modules\mongojs\node_modules\readable-stream not in flight; installing
+577 info installOne string_decoder@0.10.31
+578 verbose installOne of string_decoder to C:\Users\dtt\Documents\GitHub\web_exp02\exp02\node_modules\mongojs\node_modules\readable-stream not in flight; installing
+579 verbose lock using C:\Users\dtt\AppData\Roaming\npm-cache\_locks\inherits-191c0f21cea6437f.lock for C:\Users\dtt\Documents\GitHub\web_exp02\exp02\node_modules\mongojs\node_modules\readable-stream\node_modules\inherits
+580 verbose lock using C:\Users\dtt\AppData\Roaming\npm-cache\_locks\core-util-is-d3954fcc30ea4ed7.lock for C:\Users\dtt\Documents\GitHub\web_exp02\exp02\node_modules\mongojs\node_modules\readable-stream\node_modules\core-util-is
+581 verbose lock using C:\Users\dtt\AppData\Roaming\npm-cache\_locks\isarray-db81954e967cc934.lock for C:\Users\dtt\Documents\GitHub\web_exp02\exp02\node_modules\mongojs\node_modules\readable-stream\node_modules\isarray
+582 silly install write writing inherits 2.0.1 to C:\Users\dtt\Documents\GitHub\web_exp02\exp02\node_modules\mongojs\node_modules\readable-stream\node_modules\inherits
+583 silly cache addNamed cb inherits@2.0.1
+584 verbose unbuild node_modules\mongojs\node_modules\readable-stream\node_modules\inherits
+585 verbose lock using C:\Users\dtt\AppData\Roaming\npm-cache\_locks\string-decoder-0f3a6b4d7d12dede.lock for C:\Users\dtt\Documents\GitHub\web_exp02\exp02\node_modules\mongojs\node_modules\readable-stream\node_modules\string_decoder
+586 silly install write writing core-util-is 1.0.1 to C:\Users\dtt\Documents\GitHub\web_exp02\exp02\node_modules\mongojs\node_modules\readable-stream\node_modules\core-util-is
+587 silly cache addNamed cb core-util-is@1.0.1
+588 verbose unbuild node_modules\mongojs\node_modules\readable-stream\node_modules\core-util-is
+589 silly install write writing isarray 0.0.1 to C:\Users\dtt\Documents\GitHub\web_exp02\exp02\node_modules\mongojs\node_modules\readable-stream\node_modules\isarray
+590 silly cache addNamed cb isarray@0.0.1
+591 verbose unbuild node_modules\mongojs\node_modules\readable-stream\node_modules\isarray
+592 silly install write writing string_decoder 0.10.31 to C:\Users\dtt\Documents\GitHub\web_exp02\exp02\node_modules\mongojs\node_modules\readable-stream\node_modules\string_decoder
+593 silly cache addNamed cb string_decoder@0.10.31
+594 verbose unbuild node_modules\mongojs\node_modules\readable-stream\node_modules\string_decoder
+595 verbose gentlyRm vacuuming C:\Users\dtt\Documents\GitHub\web_exp02\exp02\node_modules\mongojs\node_modules\readable-stream\node_modules\inherits
+596 verbose gentlyRm vacuuming C:\Users\dtt\Documents\GitHub\web_exp02\exp02\node_modules\mongojs\node_modules\readable-stream\node_modules\core-util-is
+597 verbose gentlyRm vacuuming C:\Users\dtt\Documents\GitHub\web_exp02\exp02\node_modules\mongojs\node_modules\readable-stream\node_modules\isarray
+598 verbose tar unpack C:\Users\dtt\AppData\Roaming\npm-cache\inherits\2.0.1\package.tgz
+599 verbose tar unpacking to C:\Users\dtt\Documents\GitHub\web_exp02\exp02\node_modules\mongojs\node_modules\readable-stream\node_modules\inherits
+600 verbose gentlyRm vacuuming C:\Users\dtt\Documents\GitHub\web_exp02\exp02\node_modules\mongojs\node_modules\readable-stream\node_modules\inherits
+601 verbose gentlyRm vacuuming C:\Users\dtt\Documents\GitHub\web_exp02\exp02\node_modules\mongojs\node_modules\readable-stream\node_modules\string_decoder
+602 verbose tar unpack C:\Users\dtt\AppData\Roaming\npm-cache\core-util-is\1.0.1\package.tgz
+603 verbose tar unpacking to C:\Users\dtt\Documents\GitHub\web_exp02\exp02\node_modules\mongojs\node_modules\readable-stream\node_modules\core-util-is
+604 verbose gentlyRm vacuuming C:\Users\dtt\Documents\GitHub\web_exp02\exp02\node_modules\mongojs\node_modules\readable-stream\node_modules\core-util-is
+605 verbose tar unpack C:\Users\dtt\AppData\Roaming\npm-cache\isarray\0.0.1\package.tgz
+606 verbose tar unpacking to C:\Users\dtt\Documents\GitHub\web_exp02\exp02\node_modules\mongojs\node_modules\readable-stream\node_modules\isarray
+607 verbose gentlyRm vacuuming C:\Users\dtt\Documents\GitHub\web_exp02\exp02\node_modules\mongojs\node_modules\readable-stream\node_modules\isarray
+608 silly gunzTarPerm modes [ '777', '666' ]
+609 verbose tar unpack C:\Users\dtt\AppData\Roaming\npm-cache\string_decoder\0.10.31\package.tgz
+610 verbose tar unpacking to C:\Users\dtt\Documents\GitHub\web_exp02\exp02\node_modules\mongojs\node_modules\readable-stream\node_modules\string_decoder
+611 verbose gentlyRm vacuuming C:\Users\dtt\Documents\GitHub\web_exp02\exp02\node_modules\mongojs\node_modules\readable-stream\node_modules\string_decoder
+612 silly gunzTarPerm modes [ '777', '666' ]
+613 silly gunzTarPerm modes [ '777', '666' ]
+614 silly gunzTarPerm modes [ '777', '666' ]
+615 silly gunzTarPerm extractEntry package.json
+616 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+617 silly gunzTarPerm extractEntry README.md
+618 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+619 silly gunzTarPerm extractEntry LICENSE
+620 silly gunzTarPerm modified mode [ 'LICENSE', 420, 438 ]
+621 silly gunzTarPerm extractEntry inherits.js
+622 silly gunzTarPerm modified mode [ 'inherits.js', 420, 438 ]
+623 silly gunzTarPerm extractEntry inherits_browser.js
+624 silly gunzTarPerm modified mode [ 'inherits_browser.js', 420, 438 ]
+625 silly gunzTarPerm extractEntry test.js
+626 silly gunzTarPerm modified mode [ 'test.js', 420, 438 ]
+627 silly gunzTarPerm extractEntry package.json
+628 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+629 silly gunzTarPerm extractEntry README.md
+630 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+631 silly gunzTarPerm extractEntry index.js
+632 silly gunzTarPerm modified mode [ 'index.js', 420, 438 ]
+633 info preinstall mongodb@1.4.18
+634 silly prepareForInstallMany adding bson@~0.2 from mongodb dependencies
+635 silly prepareForInstallMany adding kerberos@0.0.4 from mongodb dependencies
+636 silly prepareForInstallMany adding readable-stream@latest from mongodb dependencies
+637 silly gunzTarPerm extractEntry package.json
+638 silly gunzTarPerm modified mode [ 'package.json', 436, 438 ]
+639 silly gunzTarPerm extractEntry build/build.js
+640 silly gunzTarPerm modified mode [ 'build/build.js', 420, 438 ]
+641 silly gunzTarPerm extractEntry component.json
+642 silly gunzTarPerm modified mode [ 'component.json', 420, 438 ]
+643 silly gunzTarPerm extractEntry .npmignore
+644 silly gunzTarPerm modified mode [ '.npmignore', 436, 438 ]
+645 silly gunzTarPerm extractEntry README.md
+646 silly gunzTarPerm modified mode [ 'README.md', 436, 438 ]
+647 silly gunzTarPerm extractEntry LICENSE
+648 silly gunzTarPerm modified mode [ 'LICENSE', 436, 438 ]
+649 silly gunzTarPerm extractEntry index.js
+650 silly gunzTarPerm modified mode [ 'index.js', 436, 438 ]
+651 silly cache add args [ 'bson@~0.2', null ]
+652 verbose cache add spec bson@~0.2
+653 silly cache add args [ 'kerberos@0.0.4', null ]
+654 verbose cache add spec kerberos@0.0.4
+655 silly cache add args [ 'readable-stream@latest', null ]
+656 verbose cache add spec readable-stream@latest
+657 silly cache add parsed spec { raw: 'bson@~0.2',
+657 silly cache add   scope: null,
+657 silly cache add   name: 'bson',
+657 silly cache add   rawSpec: '~0.2',
+657 silly cache add   spec: '>=0.2.0 <0.3.0',
+657 silly cache add   type: 'range' }
+658 verbose addNamed bson@>=0.2.0 <0.3.0
+659 silly addNamed semver.valid null
+660 silly addNamed semver.validRange >=0.2.0 <0.3.0
+661 silly addNameRange { name: 'bson', range: '>=0.2.0 <0.3.0', hasData: false }
+662 verbose mapToRegistry name bson
+663 verbose mapToRegistry uri https://registry.npmjs.org/bson
+664 verbose addNameRange registry:https://registry.npmjs.org/bson not in flight; fetching
+665 silly cache add parsed spec { raw: 'kerberos@0.0.4',
+665 silly cache add   scope: null,
+665 silly cache add   name: 'kerberos',
+665 silly cache add   rawSpec: '0.0.4',
+665 silly cache add   spec: '0.0.4',
+665 silly cache add   type: 'version' }
+666 verbose addNamed kerberos@0.0.4
+667 silly addNamed semver.valid 0.0.4
+668 silly addNamed semver.validRange 0.0.4
+669 verbose mapToRegistry name kerberos
+670 verbose mapToRegistry uri https://registry.npmjs.org/kerberos
+671 verbose addNameVersion registry:https://registry.npmjs.org/kerberos not in flight; fetching
+672 silly cache add parsed spec { raw: 'readable-stream@latest',
+672 silly cache add   scope: null,
+672 silly cache add   name: 'readable-stream',
+672 silly cache add   rawSpec: 'latest',
+672 silly cache add   spec: 'latest',
+672 silly cache add   type: 'tag' }
+673 verbose addNamed readable-stream@latest
+674 silly addNamed semver.valid null
+675 silly addNamed semver.validRange null
+676 info addNameTag [ 'readable-stream', 'latest' ]
+677 verbose mapToRegistry name readable-stream
+678 verbose mapToRegistry uri https://registry.npmjs.org/readable-stream
+679 verbose addNameTag registry:https://registry.npmjs.org/readable-stream not in flight; fetching
+680 verbose registry.get https://registry.npmjs.org/readable-stream not expired, no request
+681 silly addNameTag next cb for readable-stream with tag latest
+682 verbose addNamed readable-stream@1.0.33-1
+683 silly addNamed semver.valid 1.0.33-1
+684 silly addNamed semver.validRange 1.0.33-1
+685 verbose addRemoteTarball https://registry.npmjs.org/readable-stream/-/readable-stream-1.0.33-1.tgz not in flight; adding
+686 verbose addRemoteTarball [ 'https://registry.npmjs.org/readable-stream/-/readable-stream-1.0.33-1.tgz',
+686 verbose addRemoteTarball   '40d0d91338691291a9117c05d78adb5497c37810' ]
+687 silly gunzTarPerm extractEntry package.json
+688 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+689 info retry fetch attempt 1 at 02:50:17
+690 info attempt registry request try #1 at 02:50:17
+691 http fetch GET https://registry.npmjs.org/readable-stream/-/readable-stream-1.0.33-1.tgz
+692 silly gunzTarPerm extractEntry README.md
+693 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+694 silly gunzTarPerm extractEntry util.js
+695 silly gunzTarPerm modified mode [ 'util.js', 420, 438 ]
+696 silly gunzTarPerm extractEntry float.patch
+697 silly gunzTarPerm modified mode [ 'float.patch', 420, 438 ]
+698 silly gunzTarPerm extractEntry lib/util.js
+699 silly gunzTarPerm modified mode [ 'lib/util.js', 420, 438 ]
+700 verbose request on initialization, where is /bson
+701 verbose request after pass 1, where is /bson
+702 verbose request url raw /bson
+703 verbose request resolving registry [ 'https://registry.npmjs.org/', './bson' ]
+704 verbose request after pass 2, where is https://registry.npmjs.org/bson
+705 verbose request no auth needed
+706 info attempt registry request try #1 at 02:50:17
+707 verbose etag "A3X51WN9BLNW24Z23L59JJJKU"
+708 http request GET https://registry.npmjs.org/bson
+709 info preinstall inherits@2.0.1
+710 silly install resolved []
+711 verbose about to build C:\Users\dtt\Documents\GitHub\web_exp02\exp02\node_modules\mongojs\node_modules\readable-stream\node_modules\inherits
+712 info build C:\Users\dtt\Documents\GitHub\web_exp02\exp02\node_modules\mongojs\node_modules\readable-stream\node_modules\inherits
+713 verbose linkStuff [ false,
+713 verbose linkStuff   false,
+713 verbose linkStuff   false,
+713 verbose linkStuff   'C:\\Users\\dtt\\Documents\\GitHub\\web_exp02\\exp02\\node_modules\\mongojs\\node_modules\\readable-stream\\node_modules' ]
+714 info linkStuff inherits@2.0.1
+715 verbose linkBins inherits@2.0.1
+716 verbose linkMans inherits@2.0.1
+717 verbose rebuildBundles inherits@2.0.1
+718 info install inherits@2.0.1
+719 info postinstall inherits@2.0.1
+720 verbose unlock done using C:\Users\dtt\AppData\Roaming\npm-cache\_locks\inherits-191c0f21cea6437f.lock for C:\Users\dtt\Documents\GitHub\web_exp02\exp02\node_modules\mongojs\node_modules\readable-stream\node_modules\inherits
+721 info preinstall isarray@0.0.1
+722 silly install resolved []
+723 verbose about to build C:\Users\dtt\Documents\GitHub\web_exp02\exp02\node_modules\mongojs\node_modules\readable-stream\node_modules\isarray
+724 info build C:\Users\dtt\Documents\GitHub\web_exp02\exp02\node_modules\mongojs\node_modules\readable-stream\node_modules\isarray
+725 verbose linkStuff [ false,
+725 verbose linkStuff   false,
+725 verbose linkStuff   false,
+725 verbose linkStuff   'C:\\Users\\dtt\\Documents\\GitHub\\web_exp02\\exp02\\node_modules\\mongojs\\node_modules\\readable-stream\\node_modules' ]
+726 info linkStuff isarray@0.0.1
+727 verbose linkBins isarray@0.0.1
+728 verbose linkMans isarray@0.0.1
+729 verbose rebuildBundles isarray@0.0.1
+730 info install isarray@0.0.1
+731 info postinstall isarray@0.0.1
+732 verbose unlock done using C:\Users\dtt\AppData\Roaming\npm-cache\_locks\isarray-db81954e967cc934.lock for C:\Users\dtt\Documents\GitHub\web_exp02\exp02\node_modules\mongojs\node_modules\readable-stream\node_modules\isarray
+733 info preinstall string_decoder@0.10.31
+734 silly install resolved []
+735 verbose about to build C:\Users\dtt\Documents\GitHub\web_exp02\exp02\node_modules\mongojs\node_modules\readable-stream\node_modules\string_decoder
+736 info build C:\Users\dtt\Documents\GitHub\web_exp02\exp02\node_modules\mongojs\node_modules\readable-stream\node_modules\string_decoder
+737 verbose linkStuff [ false,
+737 verbose linkStuff   false,
+737 verbose linkStuff   false,
+737 verbose linkStuff   'C:\\Users\\dtt\\Documents\\GitHub\\web_exp02\\exp02\\node_modules\\mongojs\\node_modules\\readable-stream\\node_modules' ]
+738 info linkStuff string_decoder@0.10.31
+739 verbose linkBins string_decoder@0.10.31
+740 verbose linkMans string_decoder@0.10.31
+741 verbose rebuildBundles string_decoder@0.10.31
+742 info install string_decoder@0.10.31
+743 info postinstall string_decoder@0.10.31
+744 verbose unlock done using C:\Users\dtt\AppData\Roaming\npm-cache\_locks\string-decoder-0f3a6b4d7d12dede.lock for C:\Users\dtt\Documents\GitHub\web_exp02\exp02\node_modules\mongojs\node_modules\readable-stream\node_modules\string_decoder
+745 verbose request on initialization, where is /kerberos
+746 verbose request after pass 1, where is /kerberos
+747 verbose request url raw /kerberos
+748 verbose request resolving registry [ 'https://registry.npmjs.org/', './kerberos' ]
+749 verbose request after pass 2, where is https://registry.npmjs.org/kerberos
+750 verbose request no auth needed
+751 info attempt registry request try #1 at 02:50:17
+752 verbose etag "CRY0P7OTUUU3EC99KYC3ABRHU"
+753 http request GET https://registry.npmjs.org/kerberos
+754 info preinstall core-util-is@1.0.1
+755 silly install resolved []
+756 verbose about to build C:\Users\dtt\Documents\GitHub\web_exp02\exp02\node_modules\mongojs\node_modules\readable-stream\node_modules\core-util-is
+757 info build C:\Users\dtt\Documents\GitHub\web_exp02\exp02\node_modules\mongojs\node_modules\readable-stream\node_modules\core-util-is
+758 verbose linkStuff [ false,
+758 verbose linkStuff   false,
+758 verbose linkStuff   false,
+758 verbose linkStuff   'C:\\Users\\dtt\\Documents\\GitHub\\web_exp02\\exp02\\node_modules\\mongojs\\node_modules\\readable-stream\\node_modules' ]
+759 info linkStuff core-util-is@1.0.1
+760 verbose linkBins core-util-is@1.0.1
+761 verbose linkMans core-util-is@1.0.1
+762 verbose rebuildBundles core-util-is@1.0.1
+763 info install core-util-is@1.0.1
+764 info postinstall core-util-is@1.0.1
+765 verbose unlock done using C:\Users\dtt\AppData\Roaming\npm-cache\_locks\core-util-is-d3954fcc30ea4ed7.lock for C:\Users\dtt\Documents\GitHub\web_exp02\exp02\node_modules\mongojs\node_modules\readable-stream\node_modules\core-util-is
+766 verbose about to build C:\Users\dtt\Documents\GitHub\web_exp02\exp02\node_modules\mongojs\node_modules\readable-stream
+767 info build C:\Users\dtt\Documents\GitHub\web_exp02\exp02\node_modules\mongojs\node_modules\readable-stream
+768 verbose linkStuff [ false,
+768 verbose linkStuff   false,
+768 verbose linkStuff   false,
+768 verbose linkStuff   'C:\\Users\\dtt\\Documents\\GitHub\\web_exp02\\exp02\\node_modules\\mongojs\\node_modules' ]
+769 info linkStuff readable-stream@1.1.13
+770 verbose linkBins readable-stream@1.1.13
+771 verbose linkMans readable-stream@1.1.13
+772 verbose rebuildBundles readable-stream@1.1.13
+773 verbose rebuildBundles [ 'core-util-is', 'inherits', 'isarray', 'string_decoder' ]
+774 info install readable-stream@1.1.13
+775 info postinstall readable-stream@1.1.13
+776 verbose unlock done using C:\Users\dtt\AppData\Roaming\npm-cache\_locks\readable-stream-8b3a85823009bb1a.lock for C:\Users\dtt\Documents\GitHub\web_exp02\exp02\node_modules\mongojs\node_modules\readable-stream
+777 http fetch 200 https://registry.npmjs.org/readable-stream/-/readable-stream-1.0.33-1.tgz
+778 silly fetchAndShaCheck shasum 40d0d91338691291a9117c05d78adb5497c37810
+779 verbose addTmpTarball C:\Users\dtt\AppData\Local\Temp\npm-5932-2c8f0513\registry.npmjs.org\readable-stream\-\readable-stream-1.0.33-1.tgz not in flight; adding
+780 verbose addTmpTarball already have metadata; skipping unpack for readable-stream@1.0.33-1
+781 silly cache afterAdd readable-stream@1.0.33-1
+782 verbose afterAdd C:\Users\dtt\AppData\Roaming\npm-cache\readable-stream\1.0.33-1\package\package.json not in flight; writing
+783 verbose afterAdd C:\Users\dtt\AppData\Roaming\npm-cache\readable-stream\1.0.33-1\package\package.json written
+784 http 304 https://registry.npmjs.org/kerberos
+785 silly registry.get cb [ 304,
+785 silly registry.get   { date: 'Sat, 18 Oct 2014 06:50:17 GMT',
+785 silly registry.get     server: 'Apache',
+785 silly registry.get     via: '1.1 varnish',
+785 silly registry.get     'last-modified': 'Sat, 18 Oct 2014 06:50:17 GMT',
+785 silly registry.get     'cache-control': 'max-age=60',
+785 silly registry.get     etag: '"CRY0P7OTUUU3EC99KYC3ABRHU"',
+785 silly registry.get     age: '0',
+785 silly registry.get     'x-served-by': 'cache-jfk1035-JFK',
+785 silly registry.get     'x-cache': 'HIT',
+785 silly registry.get     'x-cache-hits': '1',
+785 silly registry.get     'x-timer': 'S1413615017.112887,VS0,VE13',
+785 silly registry.get     vary: 'Accept',
+785 silly registry.get     'content-length': '0',
+785 silly registry.get     'keep-alive': 'timeout=10, max=50',
+785 silly registry.get     connection: 'Keep-Alive' } ]
+786 verbose etag https://registry.npmjs.org/kerberos from cache
+787 http 304 https://registry.npmjs.org/bson
+788 silly registry.get cb [ 304,
+788 silly registry.get   { date: 'Sat, 18 Oct 2014 06:50:17 GMT',
+788 silly registry.get     server: 'Apache',
+788 silly registry.get     via: '1.1 varnish',
+788 silly registry.get     'last-modified': 'Sat, 18 Oct 2014 06:50:17 GMT',
+788 silly registry.get     'cache-control': 'max-age=60',
+788 silly registry.get     etag: '"A3X51WN9BLNW24Z23L59JJJKU"',
+788 silly registry.get     age: '0',
+788 silly registry.get     'x-served-by': 'cache-jfk1023-JFK',
+788 silly registry.get     'x-cache': 'HIT',
+788 silly registry.get     'x-cache-hits': '1',
+788 silly registry.get     'x-timer': 'S1413615017.066650,VS0,VE82',
+788 silly registry.get     vary: 'Accept',
+788 silly registry.get     'content-length': '0',
+788 silly registry.get     'keep-alive': 'timeout=10, max=50',
+788 silly registry.get     connection: 'Keep-Alive' } ]
+789 verbose etag https://registry.npmjs.org/bson from cache
+790 silly cache afterAdd kerberos@0.0.4
+791 verbose afterAdd C:\Users\dtt\AppData\Roaming\npm-cache\kerberos\0.0.4\package\package.json not in flight; writing
+792 verbose afterAdd C:\Users\dtt\AppData\Roaming\npm-cache\kerberos\0.0.4\package\package.json written
+793 silly addNameRange number 2 { name: 'bson', range: '>=0.2.0 <0.3.0', hasData: true }
+794 silly addNameRange versions [ 'bson',
+794 silly addNameRange   [ '0.0.1',
+794 silly addNameRange     '0.0.2',
+794 silly addNameRange     '0.0.3',
+794 silly addNameRange     '0.0.4',
+794 silly addNameRange     '0.0.5',
+794 silly addNameRange     '0.0.6',
+794 silly addNameRange     '0.0.7',
+794 silly addNameRange     '0.0.8',
+794 silly addNameRange     '0.0.9',
+794 silly addNameRange     '0.1.0',
+794 silly addNameRange     '0.1.1',
+794 silly addNameRange     '0.1.3',
+794 silly addNameRange     '0.1.4',
+794 silly addNameRange     '0.1.5',
+794 silly addNameRange     '0.1.6',
+794 silly addNameRange     '0.1.7',
+794 silly addNameRange     '0.1.8',
+794 silly addNameRange     '0.1.9',
+794 silly addNameRange     '0.2.0',
+794 silly addNameRange     '0.2.1',
+794 silly addNameRange     '0.2.2',
+794 silly addNameRange     '0.2.3',
+794 silly addNameRange     '0.2.4',
+794 silly addNameRange     '0.2.5',
+794 silly addNameRange     '0.2.6',
+794 silly addNameRange     '0.2.7',
+794 silly addNameRange     '0.2.8',
+794 silly addNameRange     '0.2.9',
+794 silly addNameRange     '0.2.10',
+794 silly addNameRange     '0.2.11',
+794 silly addNameRange     '0.2.12',
+794 silly addNameRange     '0.2.13',
+794 silly addNameRange     '0.2.14',
+794 silly addNameRange     '0.2.15' ] ]
+795 verbose addNamed bson@0.2.15
+796 silly addNamed semver.valid 0.2.15
+797 silly addNamed semver.validRange 0.2.15
+798 silly cache afterAdd bson@0.2.15
+799 verbose afterAdd C:\Users\dtt\AppData\Roaming\npm-cache\bson\0.2.15\package\package.json not in flight; writing
+800 verbose afterAdd C:\Users\dtt\AppData\Roaming\npm-cache\bson\0.2.15\package\package.json written
+801 silly install resolved [ { name: 'readable-stream',
+801 silly install resolved     version: '1.0.33-1',
+801 silly install resolved     description: 'Streams2, a user-land copy of the stream library from Node.js v0.10.x',
+801 silly install resolved     main: 'readable.js',
+801 silly install resolved     dependencies:
+801 silly install resolved      { 'core-util-is': '~1.0.0',
+801 silly install resolved        isarray: '0.0.1',
+801 silly install resolved        string_decoder: '~0.10.x',
+801 silly install resolved        inherits: '~2.0.1' },
+801 silly install resolved     devDependencies: { tap: '~0.2.6' },
+801 silly install resolved     scripts: { test: 'tap test/simple/*.js' },
+801 silly install resolved     repository: { type: 'git', url: 'git://github.com/isaacs/readable-stream' },
+801 silly install resolved     keywords: [ 'readable', 'stream', 'pipe' ],
+801 silly install resolved     browser: { util: false },
+801 silly install resolved     author:
+801 silly install resolved      { name: 'Isaac Z. Schlueter',
+801 silly install resolved        email: 'i@izs.me',
+801 silly install resolved        url: 'http://blog.izs.me/' },
+801 silly install resolved     license: 'MIT',
+801 silly install resolved     gitHead: 'cd9bc3fbcdc82211c5649b5170706b10c65c8479',
+801 silly install resolved     bugs: { url: 'https://github.com/isaacs/readable-stream/issues' },
+801 silly install resolved     homepage: 'https://github.com/isaacs/readable-stream',
+801 silly install resolved     _id: 'readable-stream@1.0.33-1',
+801 silly install resolved     _shasum: '40d0d91338691291a9117c05d78adb5497c37810',
+801 silly install resolved     _from: 'readable-stream@latest',
+801 silly install resolved     _npmVersion: '1.4.23',
+801 silly install resolved     _npmUser: { name: 'rvagg', email: 'rod@vagg.org' },
+801 silly install resolved     maintainers: [ [Object], [Object], [Object] ],
+801 silly install resolved     dist:
+801 silly install resolved      { shasum: '40d0d91338691291a9117c05d78adb5497c37810',
+801 silly install resolved        tarball: 'http://registry.npmjs.org/readable-stream/-/readable-stream-1.0.33-1.tgz' },
+801 silly install resolved     directories: {},
+801 silly install resolved     _resolved: 'https://registry.npmjs.org/readable-stream/-/readable-stream-1.0.33-1.tgz' },
+801 silly install resolved   { name: 'kerberos',
+801 silly install resolved     version: '0.0.4',
+801 silly install resolved     description: 'Kerberos library for Node.js',
+801 silly install resolved     main: 'index.js',
+801 silly install resolved     repository: { type: 'git', url: 'https://github.com/christkv/kerberos.git' },
+801 silly install resolved     keywords: [ 'kerberos', 'security', 'authentication' ],
+801 silly install resolved     devDependencies: { nodeunit: 'latest' },
+801 silly install resolved     scripts:
+801 silly install resolved      { install: '(node-gyp rebuild 2> builderror.log) || (exit 0)',
+801 silly install resolved        test: 'nodeunit ./test' },
+801 silly install resolved     author: { name: 'Christian Amor Kvalheim' },
+801 silly install resolved     license: 'Apache 2.0',
+801 silly install resolved     gitHead: 'bb01d4fe322e022999aca19da564e7d9db59a8ed',
+801 silly install resolved     bugs: { url: 'https://github.com/christkv/kerberos/issues' },
+801 silly install resolved     homepage: 'https://github.com/christkv/kerberos',
+801 silly install resolved     _id: 'kerberos@0.0.4',
+801 silly install resolved     dist:
+801 silly install resolved      { shasum: '11836638f729a2f6c5bae056a7d7a15898c9ba7c',
+801 silly install resolved        tarball: 'http://registry.npmjs.org/kerberos/-/kerberos-0.0.4.tgz' },
+801 silly install resolved     _from: 'kerberos@0.0.4',
+801 silly install resolved     _npmVersion: '1.4.3',
+801 silly install resolved     _npmUser: { name: 'christkv', email: 'christkv@gmail.com' },
+801 silly install resolved     maintainers: [ [Object] ],
+801 silly install resolved     directories: {},
+801 silly install resolved     _shasum: '11836638f729a2f6c5bae056a7d7a15898c9ba7c',
+801 silly install resolved     _resolved: 'https://registry.npmjs.org/kerberos/-/kerberos-0.0.4.tgz',
+801 silly install resolved     readme: 'ERROR: No README data found!' },
+801 silly install resolved   { name: 'bson',
+801 silly install resolved     description: 'A bson parser for node.js and the browser',
+801 silly install resolved     keywords: [ 'mongodb', 'bson', 'parser' ],
+801 silly install resolved     version: '0.2.15',
+801 silly install resolved     author: { name: 'Christian Amor Kvalheim', email: 'christkv@gmail.com' },
+801 silly install resolved     contributors: [],
+801 silly install resolved     repository: { type: 'git', url: 'git://github.com/mongodb/js-bson.git' },
+801 silly install resolved     bugs: { url: 'https://github.com/mongodb/js-bson/issues' },
+801 silly install resolved     dependencies: { nan: '1.3.0' },
+801 silly install resolved     devDependencies: { nodeunit: '0.9.0', gleak: '0.2.3', one: '2.X.X' },
+801 silly install resolved     config: { native: false },
+801 silly install resolved     main: './lib/bson/index',
+801 silly install resolved     directories: { lib: './lib/bson' },
+801 silly install resolved     engines: { node: '>=0.6.19' },
+801 silly install resolved     scripts:
+801 silly install resolved      { install: '(node-gyp rebuild 2> builderror.log) || (exit 0)',
+801 silly install resolved        test: 'nodeunit ./test/node && TEST_NATIVE=TRUE nodeunit ./test/node' },
+801 silly install resolved     browser: 'lib/bson/bson.js',
+801 silly install resolved     licenses: [ [Object] ],
+801 silly install resolved     homepage: 'https://github.com/mongodb/js-bson',
+801 silly install resolved     _id: 'bson@0.2.15',
+801 silly install resolved     dist:
+801 silly install resolved      { shasum: '556402c74bf33d8008122cc3091dc8b3b90e330c',
+801 silly install resolved        tarball: 'http://registry.npmjs.org/bson/-/bson-0.2.15.tgz' },
+801 silly install resolved     _from: 'bson@>=0.2.0 <0.3.0',
+801 silly install resolved     _npmVersion: '1.4.3',
+801 silly install resolved     _npmUser: { name: 'christkv', email: 'christkv@gmail.com' },
+801 silly install resolved     maintainers: [ [Object], [Object] ],
+801 silly install resolved     _shasum: '556402c74bf33d8008122cc3091dc8b3b90e330c',
+801 silly install resolved     _resolved: 'https://registry.npmjs.org/bson/-/bson-0.2.15.tgz',
+801 silly install resolved     readme: 'ERROR: No README data found!' } ]
+802 info install readable-stream@1.0.33-1 into C:\Users\dtt\Documents\GitHub\web_exp02\exp02\node_modules\mongojs\node_modules\mongodb
+803 info install kerberos@0.0.4 into C:\Users\dtt\Documents\GitHub\web_exp02\exp02\node_modules\mongojs\node_modules\mongodb
+804 info install bson@0.2.15 into C:\Users\dtt\Documents\GitHub\web_exp02\exp02\node_modules\mongojs\node_modules\mongodb
+805 info installOne readable-stream@1.0.33-1
+806 verbose installOne of readable-stream to C:\Users\dtt\Documents\GitHub\web_exp02\exp02\node_modules\mongojs\node_modules\mongodb not in flight; installing
+807 info installOne kerberos@0.0.4
+808 verbose installOne of kerberos to C:\Users\dtt\Documents\GitHub\web_exp02\exp02\node_modules\mongojs\node_modules\mongodb not in flight; installing
+809 info installOne bson@0.2.15
+810 verbose installOne of bson to C:\Users\dtt\Documents\GitHub\web_exp02\exp02\node_modules\mongojs\node_modules\mongodb not in flight; installing
+811 verbose lock using C:\Users\dtt\AppData\Roaming\npm-cache\_locks\bson-26dd4a5ac71bc786.lock for C:\Users\dtt\Documents\GitHub\web_exp02\exp02\node_modules\mongojs\node_modules\mongodb\node_modules\bson
+812 silly install write writing bson 0.2.15 to C:\Users\dtt\Documents\GitHub\web_exp02\exp02\node_modules\mongojs\node_modules\mongodb\node_modules\bson
+813 silly cache addNamed cb bson@0.2.15
+814 verbose unbuild node_modules\mongojs\node_modules\mongodb\node_modules\bson
+815 verbose lock using C:\Users\dtt\AppData\Roaming\npm-cache\_locks\readable-stream-844fb9d0a969963e.lock for C:\Users\dtt\Documents\GitHub\web_exp02\exp02\node_modules\mongojs\node_modules\mongodb\node_modules\readable-stream
+816 silly install write writing readable-stream 1.0.33-1 to C:\Users\dtt\Documents\GitHub\web_exp02\exp02\node_modules\mongojs\node_modules\mongodb\node_modules\readable-stream
+817 verbose lock using C:\Users\dtt\AppData\Roaming\npm-cache\_locks\kerberos-9544972b996b1d41.lock for C:\Users\dtt\Documents\GitHub\web_exp02\exp02\node_modules\mongojs\node_modules\mongodb\node_modules\kerberos
+818 verbose gentlyRm vacuuming C:\Users\dtt\Documents\GitHub\web_exp02\exp02\node_modules\mongojs\node_modules\mongodb\node_modules\bson
+819 silly install write writing kerberos 0.0.4 to C:\Users\dtt\Documents\GitHub\web_exp02\exp02\node_modules\mongojs\node_modules\mongodb\node_modules\kerberos
+820 silly cache addNamed cb kerberos@0.0.4
+821 verbose unbuild node_modules\mongojs\node_modules\mongodb\node_modules\kerberos
+822 verbose tar unpack C:\Users\dtt\AppData\Roaming\npm-cache\bson\0.2.15\package.tgz
+823 verbose tar unpacking to C:\Users\dtt\Documents\GitHub\web_exp02\exp02\node_modules\mongojs\node_modules\mongodb\node_modules\bson
+824 verbose gentlyRm vacuuming C:\Users\dtt\Documents\GitHub\web_exp02\exp02\node_modules\mongojs\node_modules\mongodb\node_modules\bson
+825 silly gunzTarPerm modes [ '777', '666' ]
+826 verbose gentlyRm vacuuming C:\Users\dtt\Documents\GitHub\web_exp02\exp02\node_modules\mongojs\node_modules\mongodb\node_modules\kerberos
+827 verbose tar unpack C:\Users\dtt\AppData\Roaming\npm-cache\kerberos\0.0.4\package.tgz
+828 verbose tar unpacking to C:\Users\dtt\Documents\GitHub\web_exp02\exp02\node_modules\mongojs\node_modules\mongodb\node_modules\kerberos
+829 verbose gentlyRm vacuuming C:\Users\dtt\Documents\GitHub\web_exp02\exp02\node_modules\mongojs\node_modules\mongodb\node_modules\kerberos
+830 silly cache addNamed cb readable-stream@1.0.33-1
+831 verbose unbuild node_modules\mongojs\node_modules\mongodb\node_modules\readable-stream
+832 silly gunzTarPerm modes [ '777', '666' ]
+833 verbose gentlyRm vacuuming C:\Users\dtt\Documents\GitHub\web_exp02\exp02\node_modules\mongojs\node_modules\mongodb\node_modules\readable-stream
+834 verbose tar unpack C:\Users\dtt\AppData\Roaming\npm-cache\readable-stream\1.0.33-1\package.tgz
+835 verbose tar unpacking to C:\Users\dtt\Documents\GitHub\web_exp02\exp02\node_modules\mongojs\node_modules\mongodb\node_modules\readable-stream
+836 verbose gentlyRm vacuuming C:\Users\dtt\Documents\GitHub\web_exp02\exp02\node_modules\mongojs\node_modules\mongodb\node_modules\readable-stream
+837 silly gunzTarPerm modes [ '777', '666' ]
+838 silly gunzTarPerm extractEntry package.json
+839 silly gunzTarPerm modified mode [ 'package.json', 436, 438 ]
+840 silly gunzTarPerm extractEntry package.json
+841 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+842 silly gunzTarPerm extractEntry .npmignore
+843 silly gunzTarPerm modified mode [ '.npmignore', 420, 438 ]
+844 silly gunzTarPerm extractEntry README.md
+845 silly gunzTarPerm modified mode [ 'README.md', 436, 438 ]
+846 silly gunzTarPerm extractEntry README.md
+847 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+848 silly gunzTarPerm extractEntry LICENSE
+849 silly gunzTarPerm modified mode [ 'LICENSE', 420, 438 ]
+850 silly gunzTarPerm extractEntry LICENSE
+851 silly gunzTarPerm modified mode [ 'LICENSE', 436, 438 ]
+852 silly gunzTarPerm extractEntry duplex.js
+853 silly gunzTarPerm modified mode [ 'duplex.js', 420, 438 ]
+854 silly gunzTarPerm extractEntry build_browser.js
+855 silly gunzTarPerm modified mode [ 'build_browser.js', 420, 438 ]
+856 silly gunzTarPerm extractEntry writable.js
+857 silly gunzTarPerm modified mode [ 'writable.js', 420, 438 ]
+858 silly gunzTarPerm extractEntry passthrough.js
+859 silly gunzTarPerm modified mode [ 'passthrough.js', 420, 438 ]
+860 silly gunzTarPerm extractEntry build/Makefile
+861 silly gunzTarPerm modified mode [ 'build/Makefile', 420, 438 ]
+862 silly gunzTarPerm extractEntry build/Release/.deps/Release/bson.node.d
+863 silly gunzTarPerm modified mode [ 'build/Release/.deps/Release/bson.node.d', 420, 438 ]
+864 silly gunzTarPerm extractEntry readable.js
+865 silly gunzTarPerm modified mode [ 'readable.js', 436, 438 ]
+866 silly gunzTarPerm extractEntry transform.js
+867 silly gunzTarPerm modified mode [ 'transform.js', 420, 438 ]
+868 silly gunzTarPerm extractEntry package.json
+869 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+870 silly gunzTarPerm extractEntry lib/_stream_duplex.js
+871 silly gunzTarPerm modified mode [ 'lib/_stream_duplex.js', 436, 438 ]
+872 silly gunzTarPerm extractEntry lib/_stream_passthrough.js
+873 silly gunzTarPerm modified mode [ 'lib/_stream_passthrough.js', 436, 438 ]
+874 silly gunzTarPerm extractEntry README.md
+875 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+876 silly gunzTarPerm extractEntry LICENSE
+877 silly gunzTarPerm modified mode [ 'LICENSE', 420, 438 ]
+878 silly gunzTarPerm extractEntry build/Release/.deps/Release/obj.target/bson/ext/bson.o.d
+879 silly gunzTarPerm modified mode [ 'build/Release/.deps/Release/obj.target/bson/ext/bson.o.d',
+879 silly gunzTarPerm   420,
+879 silly gunzTarPerm   438 ]
+880 silly gunzTarPerm extractEntry build/Release/bson.node
+881 silly gunzTarPerm modified mode [ 'build/Release/bson.node', 493, 511 ]
+882 silly gunzTarPerm extractEntry lib/_stream_readable.js
+883 silly gunzTarPerm modified mode [ 'lib/_stream_readable.js', 436, 438 ]
+884 silly gunzTarPerm extractEntry index.js
+885 silly gunzTarPerm modified mode [ 'index.js', 420, 438 ]
+886 silly gunzTarPerm extractEntry binding.gyp
+887 silly gunzTarPerm modified mode [ 'binding.gyp', 420, 438 ]
+888 silly gunzTarPerm extractEntry build/Release/linker.lock
+889 silly gunzTarPerm modified mode [ 'build/Release/linker.lock', 420, 438 ]
+890 silly gunzTarPerm extractEntry build/Release/obj.target/bson/ext/bson.o
+891 silly gunzTarPerm modified mode [ 'build/Release/obj.target/bson/ext/bson.o', 420, 438 ]
+892 silly gunzTarPerm extractEntry lib/_stream_transform.js
+893 silly gunzTarPerm modified mode [ 'lib/_stream_transform.js', 436, 438 ]
+894 silly gunzTarPerm extractEntry lib/_stream_writable.js
+895 silly gunzTarPerm modified mode [ 'lib/_stream_writable.js', 436, 438 ]
+896 silly gunzTarPerm extractEntry lib/kerberos.js
+897 silly gunzTarPerm modified mode [ 'lib/kerberos.js', 420, 438 ]
+898 silly gunzTarPerm extractEntry lib/sspi.js
+899 silly gunzTarPerm modified mode [ 'lib/sspi.js', 420, 438 ]
+900 silly gunzTarPerm extractEntry lib/kerberos_context.h
+901 silly gunzTarPerm modified mode [ 'lib/kerberos_context.h', 420, 438 ]
+902 silly gunzTarPerm extractEntry lib/kerberos.cc
+903 silly gunzTarPerm modified mode [ 'lib/kerberos.cc', 420, 438 ]
+904 silly gunzTarPerm extractEntry lib/kerberos.h
+905 silly gunzTarPerm modified mode [ 'lib/kerberos.h', 420, 438 ]
+906 silly gunzTarPerm extractEntry build/binding.Makefile
+907 silly gunzTarPerm modified mode [ 'build/binding.Makefile', 420, 438 ]
+908 silly gunzTarPerm extractEntry build/bson.target.mk
+909 silly gunzTarPerm modified mode [ 'build/bson.target.mk', 420, 438 ]
+910 silly gunzTarPerm extractEntry build/config.gypi
+911 silly gunzTarPerm modified mode [ 'build/config.gypi', 420, 438 ]
+912 silly gunzTarPerm extractEntry build/gyp-mac-tool
+913 silly gunzTarPerm modified mode [ 'build/gyp-mac-tool', 493, 511 ]
+914 silly gunzTarPerm extractEntry browser_build/package.json
+915 silly gunzTarPerm modified mode [ 'browser_build/package.json', 420, 438 ]
+916 silly gunzTarPerm extractEntry browser_build/bson.js
+917 silly gunzTarPerm modified mode [ 'browser_build/bson.js', 420, 438 ]
+918 silly gunzTarPerm extractEntry lib/auth_processes/mongodb.js
+919 silly gunzTarPerm modified mode [ 'lib/auth_processes/mongodb.js', 420, 438 ]
+920 silly gunzTarPerm extractEntry lib/kerberos_context.cc
+921 silly gunzTarPerm modified mode [ 'lib/kerberos_context.cc', 420, 438 ]
+922 silly gunzTarPerm extractEntry Makefile
+923 silly gunzTarPerm modified mode [ 'Makefile', 420, 438 ]
+924 silly gunzTarPerm extractEntry lib/base64.c
+925 silly gunzTarPerm modified mode [ 'lib/base64.c', 420, 438 ]
+926 silly gunzTarPerm extractEntry lib/kerberosgss.c
+927 silly gunzTarPerm modified mode [ 'lib/kerberosgss.c', 420, 438 ]
+928 silly gunzTarPerm extractEntry .travis.yml
+929 silly gunzTarPerm modified mode [ '.travis.yml', 420, 438 ]
+930 silly gunzTarPerm extractEntry lib/kerberosgss.h
+931 silly gunzTarPerm modified mode [ 'lib/kerberosgss.h', 420, 438 ]
+932 silly gunzTarPerm extractEntry lib/base64.h
+933 silly gunzTarPerm modified mode [ 'lib/base64.h', 420, 438 ]
+934 silly gunzTarPerm extractEntry builderror.log
+935 silly gunzTarPerm modified mode [ 'builderror.log', 420, 438 ]
+936 silly gunzTarPerm extractEntry ext/index.js
+937 silly gunzTarPerm modified mode [ 'ext/index.js', 420, 438 ]
+938 info preinstall readable-stream@1.0.33-1
+939 silly gunzTarPerm extractEntry lib/win32/base64.c
+940 silly gunzTarPerm modified mode [ 'lib/win32/base64.c', 420, 438 ]
+941 silly gunzTarPerm extractEntry lib/win32/base64.h
+942 silly gunzTarPerm modified mode [ 'lib/win32/base64.h', 420, 438 ]
+943 silly gunzTarPerm extractEntry lib/win32/kerberos.cc
+944 silly gunzTarPerm modified mode [ 'lib/win32/kerberos.cc', 420, 438 ]
+945 silly prepareForInstallMany adding core-util-is@~1.0.0 from readable-stream dependencies
+946 silly prepareForInstallMany adding isarray@0.0.1 from readable-stream dependencies
+947 silly prepareForInstallMany adding string_decoder@~0.10.x from readable-stream dependencies
+948 silly prepareForInstallMany adding inherits@~2.0.1 from readable-stream dependencies
+949 silly gunzTarPerm extractEntry lib/win32/kerberos.h
+950 silly gunzTarPerm modified mode [ 'lib/win32/kerberos.h', 420, 438 ]
+951 silly gunzTarPerm extractEntry ext/Makefile
+952 silly gunzTarPerm modified mode [ 'ext/Makefile', 420, 438 ]
+953 silly gunzTarPerm extractEntry ext/bson.cc
+954 silly gunzTarPerm modified mode [ 'ext/bson.cc', 420, 438 ]
+955 silly gunzTarPerm extractEntry ext/bson.h
+956 silly gunzTarPerm modified mode [ 'ext/bson.h', 420, 438 ]
+957 silly gunzTarPerm extractEntry ext/win32/ia32/bson.node
+958 silly gunzTarPerm modified mode [ 'ext/win32/ia32/bson.node', 420, 438 ]
+959 silly gunzTarPerm extractEntry lib/win32/kerberos_sspi.c
+960 silly gunzTarPerm modified mode [ 'lib/win32/kerberos_sspi.c', 420, 438 ]
+961 silly gunzTarPerm extractEntry lib/win32/kerberos_sspi.h
+962 silly gunzTarPerm modified mode [ 'lib/win32/kerberos_sspi.h', 420, 438 ]
+963 silly cache add args [ 'core-util-is@~1.0.0', null ]
+964 verbose cache add spec core-util-is@~1.0.0
+965 silly cache add args [ 'isarray@0.0.1', null ]
+966 verbose cache add spec isarray@0.0.1
+967 silly cache add args [ 'string_decoder@~0.10.x', null ]
+968 verbose cache add spec string_decoder@~0.10.x
+969 silly cache add args [ 'inherits@~2.0.1', null ]
+970 verbose cache add spec inherits@~2.0.1
+971 silly cache add parsed spec { raw: 'core-util-is@~1.0.0',
+971 silly cache add   scope: null,
+971 silly cache add   name: 'core-util-is',
+971 silly cache add   rawSpec: '~1.0.0',
+971 silly cache add   spec: '>=1.0.0 <1.1.0',
+971 silly cache add   type: 'range' }
+972 verbose addNamed core-util-is@>=1.0.0 <1.1.0
+973 silly addNamed semver.valid null
+974 silly addNamed semver.validRange >=1.0.0 <1.1.0
+975 silly addNameRange { name: 'core-util-is', range: '>=1.0.0 <1.1.0', hasData: false }
+976 verbose mapToRegistry name core-util-is
+977 verbose mapToRegistry uri https://registry.npmjs.org/core-util-is
+978 verbose addNameRange registry:https://registry.npmjs.org/core-util-is not in flight; fetching
+979 silly cache add parsed spec { raw: 'isarray@0.0.1',
+979 silly cache add   scope: null,
+979 silly cache add   name: 'isarray',
+979 silly cache add   rawSpec: '0.0.1',
+979 silly cache add   spec: '0.0.1',
+979 silly cache add   type: 'version' }
+980 verbose addNamed isarray@0.0.1
+981 silly addNamed semver.valid 0.0.1
+982 silly addNamed semver.validRange 0.0.1
+983 verbose mapToRegistry name isarray
+984 verbose mapToRegistry uri https://registry.npmjs.org/isarray
+985 verbose addNameVersion registry:https://registry.npmjs.org/isarray not in flight; fetching
+986 silly cache add parsed spec { raw: 'string_decoder@~0.10.x',
+986 silly cache add   scope: null,
+986 silly cache add   name: 'string_decoder',
+986 silly cache add   rawSpec: '~0.10.x',
+986 silly cache add   spec: '>=0.10.0 <0.11.0',
+986 silly cache add   type: 'range' }
+987 verbose addNamed string_decoder@>=0.10.0 <0.11.0
+988 silly addNamed semver.valid null
+989 silly addNamed semver.validRange >=0.10.0 <0.11.0
+990 silly addNameRange { name: 'string_decoder',
+990 silly addNameRange   range: '>=0.10.0 <0.11.0',
+990 silly addNameRange   hasData: false }
+991 verbose mapToRegistry name string_decoder
+992 verbose mapToRegistry uri https://registry.npmjs.org/string_decoder
+993 verbose addNameRange registry:https://registry.npmjs.org/string_decoder not in flight; fetching
+994 silly cache add parsed spec { raw: 'inherits@~2.0.1',
+994 silly cache add   scope: null,
+994 silly cache add   name: 'inherits',
+994 silly cache add   rawSpec: '~2.0.1',
+994 silly cache add   spec: '>=2.0.1 <2.1.0',
+994 silly cache add   type: 'range' }
+995 verbose addNamed inherits@>=2.0.1 <2.1.0
+996 silly addNamed semver.valid null
+997 silly addNamed semver.validRange >=2.0.1 <2.1.0
+998 silly addNameRange { name: 'inherits', range: '>=2.0.1 <2.1.0', hasData: false }
+999 verbose mapToRegistry name inherits
+1000 verbose mapToRegistry uri https://registry.npmjs.org/inherits
+1001 verbose addNameRange registry:https://registry.npmjs.org/inherits not in flight; fetching
+1002 verbose registry.get https://registry.npmjs.org/core-util-is not expired, no request
+1003 silly addNameRange number 2 { name: 'core-util-is', range: '>=1.0.0 <1.1.0', hasData: true }
+1004 silly addNameRange versions [ 'core-util-is', [ '1.0.0', '1.0.1' ] ]
+1005 verbose addNamed core-util-is@1.0.1
+1006 silly addNamed semver.valid 1.0.1
+1007 silly addNamed semver.validRange 1.0.1
+1008 verbose registry.get https://registry.npmjs.org/isarray not expired, no request
+1009 verbose registry.get https://registry.npmjs.org/string_decoder not expired, no request
+1010 silly addNameRange number 2 { name: 'string_decoder',
+1010 silly addNameRange   range: '>=0.10.0 <0.11.0',
+1010 silly addNameRange   hasData: true }
+1011 silly addNameRange versions [ 'string_decoder',
+1011 silly addNameRange   [ '0.0.0',
+1011 silly addNameRange     '0.0.1',
+1011 silly addNameRange     '0.10.24',
+1011 silly addNameRange     '0.11.10',
+1011 silly addNameRange     '0.10.25',
+1011 silly addNameRange     '0.11.10-1',
+1011 silly addNameRange     '0.10.25-1',
+1011 silly addNameRange     '0.10.31' ] ]
+1012 verbose addNamed string_decoder@0.10.31
+1013 silly addNamed semver.valid 0.10.31
+1014 silly addNamed semver.validRange 0.10.31
+1015 silly cache afterAdd core-util-is@1.0.1
+1016 verbose afterAdd C:\Users\dtt\AppData\Roaming\npm-cache\core-util-is\1.0.1\package\package.json not in flight; writing
+1017 silly cache afterAdd isarray@0.0.1
+1018 verbose afterAdd C:\Users\dtt\AppData\Roaming\npm-cache\isarray\0.0.1\package\package.json not in flight; writing
+1019 silly cache afterAdd string_decoder@0.10.31
+1020 verbose afterAdd C:\Users\dtt\AppData\Roaming\npm-cache\string_decoder\0.10.31\package\package.json not in flight; writing
+1021 verbose registry.get https://registry.npmjs.org/inherits not expired, no request
+1022 silly addNameRange number 2 { name: 'inherits', range: '>=2.0.1 <2.1.0', hasData: true }
+1023 silly addNameRange versions [ 'inherits', [ '1.0.0', '2.0.0', '2.0.1' ] ]
+1024 verbose addNamed inherits@2.0.1
+1025 silly addNamed semver.valid 2.0.1
+1026 silly addNamed semver.validRange 2.0.1
+1027 silly gunzTarPerm extractEntry lib/win32/worker.cc
+1028 silly gunzTarPerm modified mode [ 'lib/win32/worker.cc', 420, 438 ]
+1029 silly gunzTarPerm extractEntry lib/win32/worker.h
+1030 silly gunzTarPerm modified mode [ 'lib/win32/worker.h', 420, 438 ]
+1031 silly cache afterAdd inherits@2.0.1
+1032 verbose afterAdd C:\Users\dtt\AppData\Roaming\npm-cache\inherits\2.0.1\package\package.json not in flight; writing
+1033 verbose afterAdd C:\Users\dtt\AppData\Roaming\npm-cache\core-util-is\1.0.1\package\package.json written
+1034 verbose afterAdd C:\Users\dtt\AppData\Roaming\npm-cache\string_decoder\0.10.31\package\package.json written
+1035 verbose afterAdd C:\Users\dtt\AppData\Roaming\npm-cache\inherits\2.0.1\package\package.json written
+1036 verbose afterAdd C:\Users\dtt\AppData\Roaming\npm-cache\isarray\0.0.1\package\package.json written
+1037 silly install resolved [ { name: 'core-util-is',
+1037 silly install resolved     version: '1.0.1',
+1037 silly install resolved     description: 'The `util.is*` functions introduced in Node v0.12.',
+1037 silly install resolved     main: 'lib/util.js',
+1037 silly install resolved     repository: { type: 'git', url: 'git://github.com/isaacs/core-util-is' },
+1037 silly install resolved     keywords:
+1037 silly install resolved      [ 'util',
+1037 silly install resolved        'isBuffer',
+1037 silly install resolved        'isArray',
+1037 silly install resolved        'isNumber',
+1037 silly install resolved        'isString',
+1037 silly install resolved        'isRegExp',
+1037 silly install resolved        'isThis',
+1037 silly install resolved        'isThat',
+1037 silly install resolved        'polyfill' ],
+1037 silly install resolved     author:
+1037 silly install resolved      { name: 'Isaac Z. Schlueter',
+1037 silly install resolved        email: 'i@izs.me',
+1037 silly install resolved        url: 'http://blog.izs.me/' },
+1037 silly install resolved     license: 'MIT',
+1037 silly install resolved     bugs: { url: 'https://github.com/isaacs/core-util-is/issues' },
+1037 silly install resolved     readme: '# core-util-is\n\nThe `util.is*` functions introduced in Node v0.12.\n',
+1037 silly install resolved     readmeFilename: 'README.md',
+1037 silly install resolved     homepage: 'https://github.com/isaacs/core-util-is',
+1037 silly install resolved     _id: 'core-util-is@1.0.1',
+1037 silly install resolved     dist:
+1037 silly install resolved      { shasum: '6b07085aef9a3ccac6ee53bf9d3df0c1521a5538',
+1037 silly install resolved        tarball: 'http://registry.npmjs.org/core-util-is/-/core-util-is-1.0.1.tgz' },
+1037 silly install resolved     _from: 'core-util-is@>=1.0.0 <1.1.0',
+1037 silly install resolved     _npmVersion: '1.3.23',
+1037 silly install resolved     _npmUser: { name: 'isaacs', email: 'i@izs.me' },
+1037 silly install resolved     maintainers: [ [Object] ],
+1037 silly install resolved     directories: {},
+1037 silly install resolved     _shasum: '6b07085aef9a3ccac6ee53bf9d3df0c1521a5538',
+1037 silly install resolved     _resolved: 'https://registry.npmjs.org/core-util-is/-/core-util-is-1.0.1.tgz',
+1037 silly install resolved     scripts: {} },
+1037 silly install resolved   { name: 'string_decoder',
+1037 silly install resolved     version: '0.10.31',
+1037 silly install resolved     description: 'The string_decoder module from Node core',
+1037 silly install resolved     main: 'index.js',
+1037 silly install resolved     dependencies: {},
+1037 silly install resolved     devDependencies: { tap: '~0.4.8' },
+1037 silly install resolved     scripts: { test: 'tap test/simple/*.js' },
+1037 silly install resolved     repository:
+1037 silly install resolved      { type: 'git',
+1037 silly install resolved        url: 'git://github.com/rvagg/string_decoder.git' },
+1037 silly install resolved     homepage: 'https://github.com/rvagg/string_decoder',
+1037 silly install resolved     keywords: [ 'string', 'decoder', 'browser', 'browserify' ],
+1037 silly install resolved     license: 'MIT',
+1037 silly install resolved     gitHead: 'd46d4fd87cf1d06e031c23f1ba170ca7d4ade9a0',
+1037 silly install resolved     bugs: { url: 'https://github.com/rvagg/string_decoder/issues' },
+1037 silly install resolved     _id: 'string_decoder@0.10.31',
+1037 silly install resolved     _shasum: '62e203bc41766c6c28c9fc84301dab1c5310fa94',
+1037 silly install resolved     _from: 'string_decoder@>=0.10.0 <0.11.0',
+1037 silly install resolved     _npmVersion: '1.4.23',
+1037 silly install resolved     _npmUser: { name: 'rvagg', email: 'rod@vagg.org' },
+1037 silly install resolved     maintainers: [ [Object], [Object] ],
+1037 silly install resolved     dist:
+1037 silly install resolved      { shasum: '62e203bc41766c6c28c9fc84301dab1c5310fa94',
+1037 silly install resolved        tarball: 'http://registry.npmjs.org/string_decoder/-/string_decoder-0.10.31.tgz' },
+1037 silly install resolved     directories: {},
+1037 silly install resolved     _resolved: 'https://registry.npmjs.org/string_decoder/-/string_decoder-0.10.31.tgz',
+1037 silly install resolved     readme: 'ERROR: No README data found!' },
+1037 silly install resolved   { name: 'inherits',
+1037 silly install resolved     description: 'Browser-friendly inheritance fully compatible with standard node.js inherits()',
+1037 silly install resolved     version: '2.0.1',
+1037 silly install resolved     keywords:
+1037 silly install resolved      [ 'inheritance',
+1037 silly install resolved        'class',
+1037 silly install resolved        'klass',
+1037 silly install resolved        'oop',
+1037 silly install resolved        'object-oriented',
+1037 silly install resolved        'inherits',
+1037 silly install resolved        'browser',
+1037 silly install resolved        'browserify' ],
+1037 silly install resolved     main: './inherits.js',
+1037 silly install resolved     browser: './inherits_browser.js',
+1037 silly install resolved     repository: { type: 'git', url: 'git://github.com/isaacs/inherits' },
+1037 silly install resolved     license: 'ISC',
+1037 silly install resolved     scripts: { test: 'node test' },
+1037 silly install resolved     readme: 'Browser-friendly inheritance fully compatible with standard node.js\n[inherits](http://nodejs.org/api/util.html#util_util_inherits_constructor_superconstructor).\n\nThis package exports standard `inherits` from node.js `util` module in\nnode environment, but also provides alternative browser-friendly\nimplementation through [browser\nfield](https://gist.github.com/shtylman/4339901). Alternative\nimplementation is a literal copy of standard one located in standalone\nmodule to avoid requiring of `util`. It also has a shim for old\nbrowsers with no `Object.create` support.\n\nWhile keeping you sure you are using standard `inherits`\nimplementation in node.js environment, it allows bundlers such as\n[browserify](https://github.com/substack/node-browserify) to not\ninclude full `util` package to your client code if all you need is\njust `inherits` function. It worth, because browser shim for `util`\npackage is large and `inherits` is often the single function you need\nfrom it.\n\nIt\'s recommended to use this package instead of\n`require(\'util\').inherits` for any code that has chances to be used\nnot only in node.js but in browser too.\n\n## usage\n\n```js\nvar inherits = require(\'inherits\');\n// then use exactly as the standard one\n```\n\n## note on version ~1.0\n\nVersion ~1.0 had completely different motivation and is not compatible\nneither with 2.0 nor with standard node.js `inherits`.\n\nIf you are using version ~1.0 and planning to switch to ~2.0, be\ncareful:\n\n* new version uses `super_` instead of `super` for referencing\n  superclass\n* new version overwrites current prototype while old one preserves any\n  existing fields on it\n',
+1037 silly install resolved     readmeFilename: 'README.md',
+1037 silly install resolved     bugs: { url: 'https://github.com/isaacs/inherits/issues' },
+1037 silly install resolved     _id: 'inherits@2.0.1',
+1037 silly install resolved     dist:
+1037 silly install resolved      { shasum: 'b17d08d326b4423e568eff719f91b0b1cbdf69f1',
+1037 silly install resolved        tarball: 'http://registry.npmjs.org/inherits/-/inherits-2.0.1.tgz' },
+1037 silly install resolved     _from: 'inherits@>=2.0.1 <2.1.0',
+1037 silly install resolved     _npmVersion: '1.3.8',
+1037 silly install resolved     _npmUser: { name: 'isaacs', email: 'i@izs.me' },
+1037 silly install resolved     maintainers: [ [Object] ],
+1037 silly install resolved     directories: {},
+1037 silly install resolved     _shasum: 'b17d08d326b4423e568eff719f91b0b1cbdf69f1',
+1037 silly install resolved     _resolved: 'https://registry.npmjs.org/inherits/-/inherits-2.0.1.tgz',
+1037 silly install resolved     homepage: 'https://github.com/isaacs/inherits' },
+1037 silly install resolved   { name: 'isarray',
+1037 silly install resolved     description: 'Array#isArray for older browsers',
+1037 silly install resolved     version: '0.0.1',
+1037 silly install resolved     repository:
+1037 silly install resolved      { type: 'git',
+1037 silly install resolved        url: 'git://github.com/juliangruber/isarray.git' },
+1037 silly install resolved     homepage: 'https://github.com/juliangruber/isarray',
+1037 silly install resolved     main: 'index.js',
+1037 silly install resolved     scripts: { test: 'tap test/*.js' },
+1037 silly install resolved     dependencies: {},
+1037 silly install resolved     devDependencies: { tap: '*' },
+1037 silly install resolved     keywords: [ 'browser', 'isarray', 'array' ],
+1037 silly install resolved     author:
+1037 silly install resolved      { name: 'Julian Gruber',
+1037 silly install resolved        email: 'mail@juliangruber.com',
+1037 silly install resolved        url: 'http://juliangruber.com' },
+1037 silly install resolved     license: 'MIT',
+1037 silly install resolved     readme: '\n# isarray\n\n`Array#isArray` for older browsers.\n\n## Usage\n\n```js\nvar isArray = require(\'isarray\');\n\nconsole.log(isArray([])); // => true\nconsole.log(isArray({})); // => false\n```\n\n## Installation\n\nWith [npm](http://npmjs.org) do\n\n```bash\n$ npm install isarray\n```\n\nThen bundle for the browser with\n[browserify](https://github.com/substack/browserify).\n\nWith [component](http://component.io) do\n\n```bash\n$ component install juliangruber/isarray\n```\n\n## License\n\n(MIT)\n\nCopyright (c) 2013 Julian Gruber &lt;julian@juliangruber.com&gt;\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of\nthis software and associated documentation files (the "Software"), to deal in\nthe Software without restriction, including without limitation the rights to\nuse, copy, modify, merge, publish, distribute, sublicense, and/or sell copies\nof the Software, and to permit persons to whom the Software is furnished to do\nso, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.\n',
+1037 silly install resolved     readmeFilename: 'README.md',
+1037 silly install resolved     _id: 'isarray@0.0.1',
+1037 silly install resolved     dist:
+1037 silly install resolved      { shasum: '8a18acfca9a8f4177e09abfc6038939b05d1eedf',
+1037 silly install resolved        tarball: 'http://registry.npmjs.org/isarray/-/isarray-0.0.1.tgz' },
+1037 silly install resolved     _from: 'isarray@0.0.1',
+1037 silly install resolved     _npmVersion: '1.2.18',
+1037 silly install resolved     _npmUser: { name: 'juliangruber', email: 'julian@juliangruber.com' },
+1037 silly install resolved     maintainers: [ [Object] ],
+1037 silly install resolved     directories: {},
+1037 silly install resolved     _shasum: '8a18acfca9a8f4177e09abfc6038939b05d1eedf',
+1037 silly install resolved     _resolved: 'https://registry.npmjs.org/isarray/-/isarray-0.0.1.tgz',
+1037 silly install resolved     bugs: { url: 'https://github.com/juliangruber/isarray/issues' } } ]
+1038 info install core-util-is@1.0.1 into C:\Users\dtt\Documents\GitHub\web_exp02\exp02\node_modules\mongojs\node_modules\mongodb\node_modules\readable-stream
+1039 info install string_decoder@0.10.31 into C:\Users\dtt\Documents\GitHub\web_exp02\exp02\node_modules\mongojs\node_modules\mongodb\node_modules\readable-stream
+1040 info install inherits@2.0.1 into C:\Users\dtt\Documents\GitHub\web_exp02\exp02\node_modules\mongojs\node_modules\mongodb\node_modules\readable-stream
+1041 info install isarray@0.0.1 into C:\Users\dtt\Documents\GitHub\web_exp02\exp02\node_modules\mongojs\node_modules\mongodb\node_modules\readable-stream
+1042 info installOne core-util-is@1.0.1
+1043 verbose installOne of core-util-is to C:\Users\dtt\Documents\GitHub\web_exp02\exp02\node_modules\mongojs\node_modules\mongodb\node_modules\readable-stream not in flight; installing
+1044 info installOne string_decoder@0.10.31
+1045 verbose installOne of string_decoder to C:\Users\dtt\Documents\GitHub\web_exp02\exp02\node_modules\mongojs\node_modules\mongodb\node_modules\readable-stream not in flight; installing
+1046 info installOne inherits@2.0.1
+1047 verbose installOne of inherits to C:\Users\dtt\Documents\GitHub\web_exp02\exp02\node_modules\mongojs\node_modules\mongodb\node_modules\readable-stream not in flight; installing
+1048 info installOne isarray@0.0.1
+1049 verbose installOne of isarray to C:\Users\dtt\Documents\GitHub\web_exp02\exp02\node_modules\mongojs\node_modules\mongodb\node_modules\readable-stream not in flight; installing
+1050 verbose lock using C:\Users\dtt\AppData\Roaming\npm-cache\_locks\core-util-is-0ce4e041711d598b.lock for C:\Users\dtt\Documents\GitHub\web_exp02\exp02\node_modules\mongojs\node_modules\mongodb\node_modules\readable-stream\node_modules\core-util-is
+1051 verbose lock using C:\Users\dtt\AppData\Roaming\npm-cache\_locks\string-decoder-d1c07508e4b9cca8.lock for C:\Users\dtt\Documents\GitHub\web_exp02\exp02\node_modules\mongojs\node_modules\mongodb\node_modules\readable-stream\node_modules\string_decoder
+1052 silly install write writing core-util-is 1.0.1 to C:\Users\dtt\Documents\GitHub\web_exp02\exp02\node_modules\mongojs\node_modules\mongodb\node_modules\readable-stream\node_modules\core-util-is
+1053 silly cache addNamed cb core-util-is@1.0.1
+1054 verbose unbuild node_modules\mongojs\node_modules\mongodb\node_modules\readable-stream\node_modules\core-util-is
+1055 verbose lock using C:\Users\dtt\AppData\Roaming\npm-cache\_locks\isarray-2a3e0d8ecb7fdf1b.lock for C:\Users\dtt\Documents\GitHub\web_exp02\exp02\node_modules\mongojs\node_modules\mongodb\node_modules\readable-stream\node_modules\isarray
+1056 silly install write writing string_decoder 0.10.31 to C:\Users\dtt\Documents\GitHub\web_exp02\exp02\node_modules\mongojs\node_modules\mongodb\node_modules\readable-stream\node_modules\string_decoder
+1057 silly cache addNamed cb string_decoder@0.10.31
+1058 verbose unbuild node_modules\mongojs\node_modules\mongodb\node_modules\readable-stream\node_modules\string_decoder
+1059 verbose lock using C:\Users\dtt\AppData\Roaming\npm-cache\_locks\inherits-2745914bc7c0daf7.lock for C:\Users\dtt\Documents\GitHub\web_exp02\exp02\node_modules\mongojs\node_modules\mongodb\node_modules\readable-stream\node_modules\inherits
+1060 silly install write writing isarray 0.0.1 to C:\Users\dtt\Documents\GitHub\web_exp02\exp02\node_modules\mongojs\node_modules\mongodb\node_modules\readable-stream\node_modules\isarray
+1061 silly cache addNamed cb isarray@0.0.1
+1062 verbose unbuild node_modules\mongojs\node_modules\mongodb\node_modules\readable-stream\node_modules\isarray
+1063 verbose gentlyRm vacuuming C:\Users\dtt\Documents\GitHub\web_exp02\exp02\node_modules\mongojs\node_modules\mongodb\node_modules\readable-stream\node_modules\core-util-is
+1064 silly install write writing inherits 2.0.1 to C:\Users\dtt\Documents\GitHub\web_exp02\exp02\node_modules\mongojs\node_modules\mongodb\node_modules\readable-stream\node_modules\inherits
+1065 silly cache addNamed cb inherits@2.0.1
+1066 verbose unbuild node_modules\mongojs\node_modules\mongodb\node_modules\readable-stream\node_modules\inherits
+1067 verbose gentlyRm vacuuming C:\Users\dtt\Documents\GitHub\web_exp02\exp02\node_modules\mongojs\node_modules\mongodb\node_modules\readable-stream\node_modules\string_decoder
+1068 verbose tar unpack C:\Users\dtt\AppData\Roaming\npm-cache\core-util-is\1.0.1\package.tgz
+1069 verbose tar unpacking to C:\Users\dtt\Documents\GitHub\web_exp02\exp02\node_modules\mongojs\node_modules\mongodb\node_modules\readable-stream\node_modules\core-util-is
+1070 verbose gentlyRm vacuuming C:\Users\dtt\Documents\GitHub\web_exp02\exp02\node_modules\mongojs\node_modules\mongodb\node_modules\readable-stream\node_modules\core-util-is
+1071 verbose gentlyRm vacuuming C:\Users\dtt\Documents\GitHub\web_exp02\exp02\node_modules\mongojs\node_modules\mongodb\node_modules\readable-stream\node_modules\isarray
+1072 verbose tar unpack C:\Users\dtt\AppData\Roaming\npm-cache\string_decoder\0.10.31\package.tgz
+1073 verbose tar unpacking to C:\Users\dtt\Documents\GitHub\web_exp02\exp02\node_modules\mongojs\node_modules\mongodb\node_modules\readable-stream\node_modules\string_decoder
+1074 verbose gentlyRm vacuuming C:\Users\dtt\Documents\GitHub\web_exp02\exp02\node_modules\mongojs\node_modules\mongodb\node_modules\readable-stream\node_modules\string_decoder
+1075 silly gunzTarPerm modes [ '777', '666' ]
+1076 verbose gentlyRm vacuuming C:\Users\dtt\Documents\GitHub\web_exp02\exp02\node_modules\mongojs\node_modules\mongodb\node_modules\readable-stream\node_modules\inherits
+1077 verbose tar unpack C:\Users\dtt\AppData\Roaming\npm-cache\isarray\0.0.1\package.tgz
+1078 verbose tar unpacking to C:\Users\dtt\Documents\GitHub\web_exp02\exp02\node_modules\mongojs\node_modules\mongodb\node_modules\readable-stream\node_modules\isarray
+1079 verbose gentlyRm vacuuming C:\Users\dtt\Documents\GitHub\web_exp02\exp02\node_modules\mongojs\node_modules\mongodb\node_modules\readable-stream\node_modules\isarray
+1080 silly gunzTarPerm modes [ '777', '666' ]
+1081 verbose tar unpack C:\Users\dtt\AppData\Roaming\npm-cache\inherits\2.0.1\package.tgz
+1082 verbose tar unpacking to C:\Users\dtt\Documents\GitHub\web_exp02\exp02\node_modules\mongojs\node_modules\mongodb\node_modules\readable-stream\node_modules\inherits
+1083 verbose gentlyRm vacuuming C:\Users\dtt\Documents\GitHub\web_exp02\exp02\node_modules\mongojs\node_modules\mongodb\node_modules\readable-stream\node_modules\inherits
+1084 silly gunzTarPerm modes [ '777', '666' ]
+1085 silly gunzTarPerm modes [ '777', '666' ]
+1086 silly gunzTarPerm extractEntry package.json
+1087 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+1088 silly gunzTarPerm extractEntry lib/win32/wrappers/security_credentials.js
+1089 silly gunzTarPerm modified mode [ 'lib/win32/wrappers/security_credentials.js', 420, 438 ]
+1090 silly gunzTarPerm extractEntry lib/win32/wrappers/security_buffer.js
+1091 silly gunzTarPerm modified mode [ 'lib/win32/wrappers/security_buffer.js', 420, 438 ]
+1092 silly gunzTarPerm extractEntry package.json
+1093 silly gunzTarPerm modified mode [ 'package.json', 436, 438 ]
+1094 silly gunzTarPerm extractEntry package.json
+1095 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+1096 silly gunzTarPerm extractEntry package.json
+1097 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+1098 silly gunzTarPerm extractEntry README.md
+1099 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+1100 silly gunzTarPerm extractEntry util.js
+1101 silly gunzTarPerm modified mode [ 'util.js', 420, 438 ]
+1102 silly gunzTarPerm extractEntry .npmignore
+1103 silly gunzTarPerm modified mode [ '.npmignore', 436, 438 ]
+1104 silly gunzTarPerm extractEntry README.md
+1105 silly gunzTarPerm modified mode [ 'README.md', 436, 438 ]
+1106 silly gunzTarPerm extractEntry README.md
+1107 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+1108 silly gunzTarPerm extractEntry index.js
+1109 silly gunzTarPerm modified mode [ 'index.js', 420, 438 ]
+1110 silly gunzTarPerm extractEntry README.md
+1111 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+1112 silly gunzTarPerm extractEntry LICENSE
+1113 silly gunzTarPerm modified mode [ 'LICENSE', 420, 438 ]
+1114 silly gunzTarPerm extractEntry lib/win32/wrappers/security_buffer_descriptor.js
+1115 silly gunzTarPerm modified mode [ 'lib/win32/wrappers/security_buffer_descriptor.js', 420, 438 ]
+1116 silly gunzTarPerm extractEntry lib/win32/wrappers/security_context.js
+1117 silly gunzTarPerm modified mode [ 'lib/win32/wrappers/security_context.js', 420, 438 ]
+1118 silly gunzTarPerm extractEntry float.patch
+1119 silly gunzTarPerm modified mode [ 'float.patch', 420, 438 ]
+1120 silly gunzTarPerm extractEntry lib/util.js
+1121 silly gunzTarPerm modified mode [ 'lib/util.js', 420, 438 ]
+1122 silly gunzTarPerm extractEntry ext/win32/x64/bson.node
+1123 silly gunzTarPerm modified mode [ 'ext/win32/x64/bson.node', 420, 438 ]
+1124 silly gunzTarPerm extractEntry LICENSE
+1125 silly gunzTarPerm modified mode [ 'LICENSE', 436, 438 ]
+1126 silly gunzTarPerm extractEntry index.js
+1127 silly gunzTarPerm modified mode [ 'index.js', 436, 438 ]
+1128 silly gunzTarPerm extractEntry inherits.js
+1129 silly gunzTarPerm modified mode [ 'inherits.js', 420, 438 ]
+1130 silly gunzTarPerm extractEntry inherits_browser.js
+1131 silly gunzTarPerm modified mode [ 'inherits_browser.js', 420, 438 ]
+1132 silly gunzTarPerm extractEntry build/build.js
+1133 silly gunzTarPerm modified mode [ 'build/build.js', 420, 438 ]
+1134 silly gunzTarPerm extractEntry component.json
+1135 silly gunzTarPerm modified mode [ 'component.json', 420, 438 ]
+1136 silly gunzTarPerm extractEntry lib/win32/wrappers/security_buffer_descriptor.h
+1137 silly gunzTarPerm modified mode [ 'lib/win32/wrappers/security_buffer_descriptor.h', 420, 438 ]
+1138 silly gunzTarPerm extractEntry lib/win32/wrappers/security_buffer.cc
+1139 silly gunzTarPerm modified mode [ 'lib/win32/wrappers/security_buffer.cc', 420, 438 ]
+1140 silly gunzTarPerm extractEntry lib/win32/wrappers/security_buffer.h
+1141 silly gunzTarPerm modified mode [ 'lib/win32/wrappers/security_buffer.h', 420, 438 ]
+1142 silly gunzTarPerm extractEntry test.js
+1143 silly gunzTarPerm modified mode [ 'test.js', 420, 438 ]
+1144 silly gunzTarPerm extractEntry lib/win32/wrappers/security_context.h
+1145 silly gunzTarPerm modified mode [ 'lib/win32/wrappers/security_context.h', 420, 438 ]
+1146 silly gunzTarPerm extractEntry ext/wscript
+1147 silly gunzTarPerm modified mode [ 'ext/wscript', 420, 438 ]
+1148 silly gunzTarPerm extractEntry lib/win32/wrappers/security_buffer_descriptor.cc
+1149 silly gunzTarPerm modified mode [ 'lib/win32/wrappers/security_buffer_descriptor.cc', 420, 438 ]
+1150 silly gunzTarPerm extractEntry lib/win32/wrappers/security_credentials.cc
+1151 silly gunzTarPerm modified mode [ 'lib/win32/wrappers/security_credentials.cc', 420, 438 ]
+1152 info preinstall isarray@0.0.1
+1153 silly install resolved []
+1154 verbose about to build C:\Users\dtt\Documents\GitHub\web_exp02\exp02\node_modules\mongojs\node_modules\mongodb\node_modules\readable-stream\node_modules\isarray
+1155 info build C:\Users\dtt\Documents\GitHub\web_exp02\exp02\node_modules\mongojs\node_modules\mongodb\node_modules\readable-stream\node_modules\isarray
+1156 verbose linkStuff [ false,
+1156 verbose linkStuff   false,
+1156 verbose linkStuff   false,
+1156 verbose linkStuff   'C:\\Users\\dtt\\Documents\\GitHub\\web_exp02\\exp02\\node_modules\\mongojs\\node_modules\\mongodb\\node_modules\\readable-stream\\node_modules' ]
+1157 info linkStuff isarray@0.0.1
+1158 verbose linkBins isarray@0.0.1
+1159 verbose linkMans isarray@0.0.1
+1160 verbose rebuildBundles isarray@0.0.1
+1161 info install isarray@0.0.1
+1162 info preinstall string_decoder@0.10.31
+1163 silly gunzTarPerm extractEntry lib/win32/wrappers/security_credentials.h
+1164 silly gunzTarPerm modified mode [ 'lib/win32/wrappers/security_credentials.h', 420, 438 ]
+1165 silly gunzTarPerm extractEntry lib/win32/wrappers/security_context.cc
+1166 silly gunzTarPerm modified mode [ 'lib/win32/wrappers/security_context.cc', 420, 438 ]
+1167 info postinstall isarray@0.0.1
+1168 silly install resolved []
+1169 verbose about to build C:\Users\dtt\Documents\GitHub\web_exp02\exp02\node_modules\mongojs\node_modules\mongodb\node_modules\readable-stream\node_modules\string_decoder
+1170 info build C:\Users\dtt\Documents\GitHub\web_exp02\exp02\node_modules\mongojs\node_modules\mongodb\node_modules\readable-stream\node_modules\string_decoder
+1171 verbose linkStuff [ false,
+1171 verbose linkStuff   false,
+1171 verbose linkStuff   false,
+1171 verbose linkStuff   'C:\\Users\\dtt\\Documents\\GitHub\\web_exp02\\exp02\\node_modules\\mongojs\\node_modules\\mongodb\\node_modules\\readable-stream\\node_modules' ]
+1172 info linkStuff string_decoder@0.10.31
+1173 verbose linkBins string_decoder@0.10.31
+1174 verbose linkMans string_decoder@0.10.31
+1175 verbose rebuildBundles string_decoder@0.10.31
+1176 verbose unlock done using C:\Users\dtt\AppData\Roaming\npm-cache\_locks\isarray-2a3e0d8ecb7fdf1b.lock for C:\Users\dtt\Documents\GitHub\web_exp02\exp02\node_modules\mongojs\node_modules\mongodb\node_modules\readable-stream\node_modules\isarray
+1177 info install string_decoder@0.10.31
+1178 info postinstall string_decoder@0.10.31
+1179 silly gunzTarPerm extractEntry lib/bson/binary.js
+1180 silly gunzTarPerm modified mode [ 'lib/bson/binary.js', 420, 438 ]
+1181 silly gunzTarPerm extractEntry lib/worker.cc
+1182 silly gunzTarPerm modified mode [ 'lib/worker.cc', 420, 438 ]
+1183 silly gunzTarPerm extractEntry lib/worker.h
+1184 silly gunzTarPerm modified mode [ 'lib/worker.h', 420, 438 ]
+1185 verbose unlock done using C:\Users\dtt\AppData\Roaming\npm-cache\_locks\string-decoder-d1c07508e4b9cca8.lock for C:\Users\dtt\Documents\GitHub\web_exp02\exp02\node_modules\mongojs\node_modules\mongodb\node_modules\readable-stream\node_modules\string_decoder
+1186 info preinstall core-util-is@1.0.1
+1187 silly install resolved []
+1188 verbose about to build C:\Users\dtt\Documents\GitHub\web_exp02\exp02\node_modules\mongojs\node_modules\mongodb\node_modules\readable-stream\node_modules\core-util-is
+1189 info build C:\Users\dtt\Documents\GitHub\web_exp02\exp02\node_modules\mongojs\node_modules\mongodb\node_modules\readable-stream\node_modules\core-util-is
+1190 verbose linkStuff [ false,
+1190 verbose linkStuff   false,
+1190 verbose linkStuff   false,
+1190 verbose linkStuff   'C:\\Users\\dtt\\Documents\\GitHub\\web_exp02\\exp02\\node_modules\\mongojs\\node_modules\\mongodb\\node_modules\\readable-stream\\node_modules' ]
+1191 info linkStuff core-util-is@1.0.1
+1192 verbose linkBins core-util-is@1.0.1
+1193 verbose linkMans core-util-is@1.0.1
+1194 verbose rebuildBundles core-util-is@1.0.1
+1195 info install core-util-is@1.0.1
+1196 info preinstall inherits@2.0.1
+1197 info postinstall core-util-is@1.0.1
+1198 silly gunzTarPerm extractEntry test/kerberos_tests.js
+1199 silly gunzTarPerm modified mode [ 'test/kerberos_tests.js', 420, 438 ]
+1200 silly gunzTarPerm extractEntry test/kerberos_win32_test.js
+1201 silly gunzTarPerm modified mode [ 'test/kerberos_win32_test.js', 420, 438 ]
+1202 verbose unlock done using C:\Users\dtt\AppData\Roaming\npm-cache\_locks\core-util-is-0ce4e041711d598b.lock for C:\Users\dtt\Documents\GitHub\web_exp02\exp02\node_modules\mongojs\node_modules\mongodb\node_modules\readable-stream\node_modules\core-util-is
+1203 silly install resolved []
+1204 verbose about to build C:\Users\dtt\Documents\GitHub\web_exp02\exp02\node_modules\mongojs\node_modules\mongodb\node_modules\readable-stream\node_modules\inherits
+1205 info build C:\Users\dtt\Documents\GitHub\web_exp02\exp02\node_modules\mongojs\node_modules\mongodb\node_modules\readable-stream\node_modules\inherits
+1206 verbose linkStuff [ false,
+1206 verbose linkStuff   false,
+1206 verbose linkStuff   false,
+1206 verbose linkStuff   'C:\\Users\\dtt\\Documents\\GitHub\\web_exp02\\exp02\\node_modules\\mongojs\\node_modules\\mongodb\\node_modules\\readable-stream\\node_modules' ]
+1207 info linkStuff inherits@2.0.1
+1208 verbose linkBins inherits@2.0.1
+1209 verbose linkMans inherits@2.0.1
+1210 verbose rebuildBundles inherits@2.0.1
+1211 info install inherits@2.0.1
+1212 silly gunzTarPerm extractEntry lib/bson/code.js
+1213 silly gunzTarPerm modified mode [ 'lib/bson/code.js', 420, 438 ]
+1214 info postinstall inherits@2.0.1
+1215 silly gunzTarPerm extractEntry test/win32/security_buffer_descriptor_tests.js
+1216 silly gunzTarPerm modified mode [ 'test/win32/security_buffer_descriptor_tests.js', 420, 438 ]
+1217 silly gunzTarPerm extractEntry test/win32/security_buffer_tests.js
+1218 silly gunzTarPerm modified mode [ 'test/win32/security_buffer_tests.js', 420, 438 ]
+1219 verbose unlock done using C:\Users\dtt\AppData\Roaming\npm-cache\_locks\inherits-2745914bc7c0daf7.lock for C:\Users\dtt\Documents\GitHub\web_exp02\exp02\node_modules\mongojs\node_modules\mongodb\node_modules\readable-stream\node_modules\inherits
+1220 verbose about to build C:\Users\dtt\Documents\GitHub\web_exp02\exp02\node_modules\mongojs\node_modules\mongodb\node_modules\readable-stream
+1221 info build C:\Users\dtt\Documents\GitHub\web_exp02\exp02\node_modules\mongojs\node_modules\mongodb\node_modules\readable-stream
+1222 verbose linkStuff [ false,
+1222 verbose linkStuff   false,
+1222 verbose linkStuff   false,
+1222 verbose linkStuff   'C:\\Users\\dtt\\Documents\\GitHub\\web_exp02\\exp02\\node_modules\\mongojs\\node_modules\\mongodb\\node_modules' ]
+1223 info linkStuff readable-stream@1.0.33-1
+1224 verbose linkBins readable-stream@1.0.33-1
+1225 verbose linkMans readable-stream@1.0.33-1
+1226 verbose rebuildBundles readable-stream@1.0.33-1
+1227 verbose rebuildBundles [ 'core-util-is', 'inherits', 'isarray', 'string_decoder' ]
+1228 info install readable-stream@1.0.33-1
+1229 silly gunzTarPerm extractEntry lib/bson/db_ref.js
+1230 silly gunzTarPerm modified mode [ 'lib/bson/db_ref.js', 420, 438 ]
+1231 info postinstall readable-stream@1.0.33-1
+1232 silly gunzTarPerm extractEntry test/win32/security_credentials_tests.js
+1233 silly gunzTarPerm modified mode [ 'test/win32/security_credentials_tests.js', 420, 438 ]
+1234 verbose unlock done using C:\Users\dtt\AppData\Roaming\npm-cache\_locks\readable-stream-844fb9d0a969963e.lock for C:\Users\dtt\Documents\GitHub\web_exp02\exp02\node_modules\mongojs\node_modules\mongodb\node_modules\readable-stream
+1235 silly gunzTarPerm extractEntry lib/bson/double.js
+1236 silly gunzTarPerm modified mode [ 'lib/bson/double.js', 420, 438 ]
+1237 silly gunzTarPerm extractEntry lib/bson/bson_new.js
+1238 silly gunzTarPerm modified mode [ 'lib/bson/bson_new.js', 420, 438 ]
+1239 silly gunzTarPerm extractEntry lib/bson/index.js
+1240 silly gunzTarPerm modified mode [ 'lib/bson/index.js', 420, 438 ]
+1241 silly gunzTarPerm extractEntry lib/bson/long.js
+1242 silly gunzTarPerm modified mode [ 'lib/bson/long.js', 420, 438 ]
+1243 silly gunzTarPerm extractEntry lib/bson/max_key.js
+1244 silly gunzTarPerm modified mode [ 'lib/bson/max_key.js', 420, 438 ]
+1245 silly gunzTarPerm extractEntry lib/bson/min_key.js
+1246 silly gunzTarPerm modified mode [ 'lib/bson/min_key.js', 420, 438 ]
+1247 silly gunzTarPerm extractEntry lib/bson/objectid.js
+1248 silly gunzTarPerm modified mode [ 'lib/bson/objectid.js', 420, 438 ]
+1249 silly gunzTarPerm extractEntry lib/bson/bson.js
+1250 silly gunzTarPerm modified mode [ 'lib/bson/bson.js', 420, 438 ]
+1251 silly gunzTarPerm extractEntry lib/bson/symbol.js
+1252 silly gunzTarPerm modified mode [ 'lib/bson/symbol.js', 420, 438 ]
+1253 silly gunzTarPerm extractEntry lib/bson/binary_parser.js
+1254 silly gunzTarPerm modified mode [ 'lib/bson/binary_parser.js', 420, 438 ]
+1255 silly gunzTarPerm extractEntry lib/bson/timestamp.js
+1256 silly gunzTarPerm modified mode [ 'lib/bson/timestamp.js', 420, 438 ]
+1257 silly gunzTarPerm extractEntry lib/bson/float_parser.js
+1258 silly gunzTarPerm modified mode [ 'lib/bson/float_parser.js', 420, 438 ]
+1259 silly gunzTarPerm extractEntry binding.gyp
+1260 silly gunzTarPerm modified mode [ 'binding.gyp', 420, 438 ]
+1261 silly gunzTarPerm extractEntry tools/gleak.js
+1262 silly gunzTarPerm modified mode [ 'tools/gleak.js', 420, 438 ]
+1263 silly gunzTarPerm extractEntry tools/jasmine-1.1.0/jasmine-html.js
+1264 silly gunzTarPerm modified mode [ 'tools/jasmine-1.1.0/jasmine-html.js', 420, 438 ]
+1265 silly gunzTarPerm extractEntry tools/jasmine-1.1.0/jasmine.js
+1266 silly gunzTarPerm modified mode [ 'tools/jasmine-1.1.0/jasmine.js', 420, 438 ]
+1267 silly gunzTarPerm extractEntry tools/jasmine-1.1.0/MIT.LICENSE
+1268 silly gunzTarPerm modified mode [ 'tools/jasmine-1.1.0/MIT.LICENSE', 420, 438 ]
+1269 silly gunzTarPerm extractEntry tools/jasmine-1.1.0/jasmine.css
+1270 silly gunzTarPerm modified mode [ 'tools/jasmine-1.1.0/jasmine.css', 420, 438 ]
+1271 silly gunzTarPerm extractEntry tools/jasmine-1.1.0/jasmine_favicon.png
+1272 silly gunzTarPerm modified mode [ 'tools/jasmine-1.1.0/jasmine_favicon.png', 420, 438 ]
+1273 info preinstall kerberos@0.0.4
+1274 silly install resolved []
+1275 verbose about to build C:\Users\dtt\Documents\GitHub\web_exp02\exp02\node_modules\mongojs\node_modules\mongodb\node_modules\kerberos
+1276 info build C:\Users\dtt\Documents\GitHub\web_exp02\exp02\node_modules\mongojs\node_modules\mongodb\node_modules\kerberos
+1277 verbose linkStuff [ false,
+1277 verbose linkStuff   false,
+1277 verbose linkStuff   false,
+1277 verbose linkStuff   'C:\\Users\\dtt\\Documents\\GitHub\\web_exp02\\exp02\\node_modules\\mongojs\\node_modules\\mongodb\\node_modules' ]
+1278 info linkStuff kerberos@0.0.4
+1279 verbose linkBins kerberos@0.0.4
+1280 verbose linkMans kerberos@0.0.4
+1281 verbose rebuildBundles kerberos@0.0.4
+1282 info install kerberos@0.0.4
+1283 verbose unsafe-perm in lifecycle true
+1284 info kerberos@0.0.4 Failed to exec install script
+1285 info kerberos@0.0.4 Failed to exec install script
+1286 verbose unlock done using C:\Users\dtt\AppData\Roaming\npm-cache\_locks\kerberos-9544972b996b1d41.lock for C:\Users\dtt\Documents\GitHub\web_exp02\exp02\node_modules\mongojs\node_modules\mongodb\node_modules\kerberos
+1287 warn optional dep failed, continuing kerberos@0.0.4
+1288 verbose optional dep failed, continuing [ 'kerberos@0.0.4',
+1288 verbose optional dep failed, continuing   { [Error: kerberos@0.0.4 install: `(node-gyp rebuild 2> builderror.log) || (exit 0)`
+1288 verbose optional dep failed, continuing   spawn ENOENT]
+1288 verbose optional dep failed, continuing     code: 'ELIFECYCLE',
+1288 verbose optional dep failed, continuing     errno: 'ENOENT',
+1288 verbose optional dep failed, continuing     syscall: 'spawn',
+1288 verbose optional dep failed, continuing     pkgid: 'kerberos@0.0.4',
+1288 verbose optional dep failed, continuing     stage: 'install',
+1288 verbose optional dep failed, continuing     script: '(node-gyp rebuild 2> builderror.log) || (exit 0)',
+1288 verbose optional dep failed, continuing     pkgname: 'kerberos' } ]
+1289 verbose unlock done using C:\Users\dtt\AppData\Roaming\npm-cache\_locks\kerberos-9544972b996b1d41.lock for C:\Users\dtt\Documents\GitHub\web_exp02\exp02\node_modules\mongojs\node_modules\mongodb\node_modules\kerberos
+1290 info preinstall bson@0.2.15
+1291 silly prepareForInstallMany adding nan@1.3.0 from bson dependencies
+1292 silly cache add args [ 'nan@1.3.0', null ]
+1293 verbose cache add spec nan@1.3.0
+1294 silly cache add parsed spec { raw: 'nan@1.3.0',
+1294 silly cache add   scope: null,
+1294 silly cache add   name: 'nan',
+1294 silly cache add   rawSpec: '1.3.0',
+1294 silly cache add   spec: '1.3.0',
+1294 silly cache add   type: 'version' }
+1295 verbose addNamed nan@1.3.0
+1296 silly addNamed semver.valid 1.3.0
+1297 silly addNamed semver.validRange 1.3.0
+1298 verbose mapToRegistry name nan
+1299 verbose mapToRegistry uri https://registry.npmjs.org/nan
+1300 verbose addNameVersion registry:https://registry.npmjs.org/nan not in flight; fetching
+1301 verbose request on initialization, where is /nan
+1302 verbose request after pass 1, where is /nan
+1303 verbose request url raw /nan
+1304 verbose request resolving registry [ 'https://registry.npmjs.org/', './nan' ]
+1305 verbose request after pass 2, where is https://registry.npmjs.org/nan
+1306 verbose request no auth needed
+1307 info attempt registry request try #1 at 02:50:18
+1308 verbose etag "7MHS7XKZMXBVAYATXOTHDJY1N"
+1309 http request GET https://registry.npmjs.org/nan
+1310 http 200 https://registry.npmjs.org/nan
+1311 silly registry.get cb [ 200,
+1311 silly registry.get   { date: 'Sat, 18 Oct 2014 06:50:17 GMT',
+1311 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R14B04)',
+1311 silly registry.get     etag: '"4QHBB3KM0BSFWQGU7N2BM6J49"',
+1311 silly registry.get     'content-type': 'application/json',
+1311 silly registry.get     'cache-control': 'max-age=60',
+1311 silly registry.get     'content-length': '73626',
+1311 silly registry.get     'accept-ranges': 'bytes',
+1311 silly registry.get     via: '1.1 varnish',
+1311 silly registry.get     age: '55',
+1311 silly registry.get     'x-served-by': 'cache-jfk1022-JFK',
+1311 silly registry.get     'x-cache': 'HIT',
+1311 silly registry.get     'x-cache-hits': '1',
+1311 silly registry.get     'x-timer': 'S1413615017.627199,VS0,VE0',
+1311 silly registry.get     vary: 'Accept',
+1311 silly registry.get     'keep-alive': 'timeout=10, max=50',
+1311 silly registry.get     connection: 'Keep-Alive' } ]
+1312 verbose addRemoteTarball https://registry.npmjs.org/nan/-/nan-1.3.0.tgz not in flight; adding
+1313 verbose addRemoteTarball [ 'https://registry.npmjs.org/nan/-/nan-1.3.0.tgz',
+1313 verbose addRemoteTarball   '9a5b8d5ef97a10df3050e59b2c362d3baf779742' ]
+1314 info retry fetch attempt 1 at 02:50:18
+1315 info attempt registry request try #1 at 02:50:18
+1316 http fetch GET https://registry.npmjs.org/nan/-/nan-1.3.0.tgz
+1317 http fetch 200 https://registry.npmjs.org/nan/-/nan-1.3.0.tgz
+1318 silly fetchAndShaCheck shasum 9a5b8d5ef97a10df3050e59b2c362d3baf779742
+1319 verbose addTmpTarball C:\Users\dtt\AppData\Local\Temp\npm-5932-2c8f0513\registry.npmjs.org\nan\-\nan-1.3.0.tgz not in flight; adding
+1320 verbose addTmpTarball already have metadata; skipping unpack for nan@1.3.0
+1321 silly cache afterAdd nan@1.3.0
+1322 verbose afterAdd C:\Users\dtt\AppData\Roaming\npm-cache\nan\1.3.0\package\package.json not in flight; writing
+1323 verbose afterAdd C:\Users\dtt\AppData\Roaming\npm-cache\nan\1.3.0\package\package.json written
+1324 silly install resolved [ { name: 'nan',
+1324 silly install resolved     version: '1.3.0',
+1324 silly install resolved     description: 'Native Abstractions for Node.js: C++ header for Node 0.8->0.12 compatibility',
+1324 silly install resolved     main: 'include_dirs.js',
+1324 silly install resolved     repository: { type: 'git', url: 'git://github.com/rvagg/nan.git' },
+1324 silly install resolved     scripts:
+1324 silly install resolved      { test: 'tap --gc test/js/*-test.js',
+1324 silly install resolved        'rebuild-tests': 'node-gyp rebuild --directory test' },
+1324 silly install resolved     contributors: [ [Object], [Object], [Object], [Object], [Object], [Object] ],
+1324 silly install resolved     devDependencies:
+1324 silly install resolved      { bindings: '~1.2.1',
+1324 silly install resolved        'node-gyp': '~1.0.1',
+1324 silly install resolved        tap: '~0.4.12',
+1324 silly install resolved        xtend: '~4.0.0' },
+1324 silly install resolved     license: 'MIT',
+1324 silly install resolved     gitHead: 'e482fbe142e58373d5a24f4e5a60c61e22a13f83',
+1324 silly install resolved     bugs: { url: 'https://github.com/rvagg/nan/issues' },
+1324 silly install resolved     homepage: 'https://github.com/rvagg/nan',
+1324 silly install resolved     _id: 'nan@1.3.0',
+1324 silly install resolved     _shasum: '9a5b8d5ef97a10df3050e59b2c362d3baf779742',
+1324 silly install resolved     _from: 'nan@1.3.0',
+1324 silly install resolved     _npmVersion: '1.4.21',
+1324 silly install resolved     _npmUser: { name: 'rvagg', email: 'rod@vagg.org' },
+1324 silly install resolved     maintainers: [ [Object] ],
+1324 silly install resolved     dist:
+1324 silly install resolved      { shasum: '9a5b8d5ef97a10df3050e59b2c362d3baf779742',
+1324 silly install resolved        tarball: 'http://registry.npmjs.org/nan/-/nan-1.3.0.tgz' },
+1324 silly install resolved     directories: {},
+1324 silly install resolved     _resolved: 'https://registry.npmjs.org/nan/-/nan-1.3.0.tgz' } ]
+1325 info install nan@1.3.0 into C:\Users\dtt\Documents\GitHub\web_exp02\exp02\node_modules\mongojs\node_modules\mongodb\node_modules\bson
+1326 info installOne nan@1.3.0
+1327 verbose installOne of nan to C:\Users\dtt\Documents\GitHub\web_exp02\exp02\node_modules\mongojs\node_modules\mongodb\node_modules\bson not in flight; installing
+1328 verbose lock using C:\Users\dtt\AppData\Roaming\npm-cache\_locks\nan-9913924c104b401b.lock for C:\Users\dtt\Documents\GitHub\web_exp02\exp02\node_modules\mongojs\node_modules\mongodb\node_modules\bson\node_modules\nan
+1329 silly install write writing nan 1.3.0 to C:\Users\dtt\Documents\GitHub\web_exp02\exp02\node_modules\mongojs\node_modules\mongodb\node_modules\bson\node_modules\nan
+1330 silly cache addNamed cb nan@1.3.0
+1331 verbose unbuild node_modules\mongojs\node_modules\mongodb\node_modules\bson\node_modules\nan
+1332 verbose gentlyRm vacuuming C:\Users\dtt\Documents\GitHub\web_exp02\exp02\node_modules\mongojs\node_modules\mongodb\node_modules\bson\node_modules\nan
+1333 verbose tar unpack C:\Users\dtt\AppData\Roaming\npm-cache\nan\1.3.0\package.tgz
+1334 verbose tar unpacking to C:\Users\dtt\Documents\GitHub\web_exp02\exp02\node_modules\mongojs\node_modules\mongodb\node_modules\bson\node_modules\nan
+1335 verbose gentlyRm vacuuming C:\Users\dtt\Documents\GitHub\web_exp02\exp02\node_modules\mongojs\node_modules\mongodb\node_modules\bson\node_modules\nan
+1336 silly gunzTarPerm modes [ '777', '666' ]
+1337 silly gunzTarPerm extractEntry package.json
+1338 silly gunzTarPerm modified mode [ 'package.json', 436, 438 ]
+1339 silly gunzTarPerm extractEntry README.md
+1340 silly gunzTarPerm modified mode [ 'README.md', 436, 438 ]
+1341 silly gunzTarPerm extractEntry LICENSE
+1342 silly gunzTarPerm modified mode [ 'LICENSE', 436, 438 ]
+1343 silly gunzTarPerm extractEntry include_dirs.js
+1344 silly gunzTarPerm modified mode [ 'include_dirs.js', 436, 438 ]
+1345 silly gunzTarPerm extractEntry CHANGELOG.md
+1346 silly gunzTarPerm modified mode [ 'CHANGELOG.md', 436, 438 ]
+1347 silly gunzTarPerm extractEntry .dntrc
+1348 silly gunzTarPerm modified mode [ '.dntrc', 436, 438 ]
+1349 silly gunzTarPerm extractEntry nan.h
+1350 silly gunzTarPerm modified mode [ 'nan.h', 436, 438 ]
+1351 silly gunzTarPerm extractEntry appveyor.yml
+1352 silly gunzTarPerm modified mode [ 'appveyor.yml', 436, 438 ]
+1353 info preinstall nan@1.3.0
+1354 silly install resolved []
+1355 verbose about to build C:\Users\dtt\Documents\GitHub\web_exp02\exp02\node_modules\mongojs\node_modules\mongodb\node_modules\bson\node_modules\nan
+1356 info build C:\Users\dtt\Documents\GitHub\web_exp02\exp02\node_modules\mongojs\node_modules\mongodb\node_modules\bson\node_modules\nan
+1357 verbose linkStuff [ false,
+1357 verbose linkStuff   false,
+1357 verbose linkStuff   false,
+1357 verbose linkStuff   'C:\\Users\\dtt\\Documents\\GitHub\\web_exp02\\exp02\\node_modules\\mongojs\\node_modules\\mongodb\\node_modules\\bson\\node_modules' ]
+1358 info linkStuff nan@1.3.0
+1359 verbose linkBins nan@1.3.0
+1360 verbose linkMans nan@1.3.0
+1361 verbose rebuildBundles nan@1.3.0
+1362 info install nan@1.3.0
+1363 info postinstall nan@1.3.0
+1364 verbose unlock done using C:\Users\dtt\AppData\Roaming\npm-cache\_locks\nan-9913924c104b401b.lock for C:\Users\dtt\Documents\GitHub\web_exp02\exp02\node_modules\mongojs\node_modules\mongodb\node_modules\bson\node_modules\nan
+1365 verbose about to build C:\Users\dtt\Documents\GitHub\web_exp02\exp02\node_modules\mongojs\node_modules\mongodb\node_modules\bson
+1366 info build C:\Users\dtt\Documents\GitHub\web_exp02\exp02\node_modules\mongojs\node_modules\mongodb\node_modules\bson
+1367 verbose linkStuff [ false,
+1367 verbose linkStuff   false,
+1367 verbose linkStuff   false,
+1367 verbose linkStuff   'C:\\Users\\dtt\\Documents\\GitHub\\web_exp02\\exp02\\node_modules\\mongojs\\node_modules\\mongodb\\node_modules' ]
+1368 info linkStuff bson@0.2.15
+1369 verbose linkBins bson@0.2.15
+1370 verbose linkMans bson@0.2.15
+1371 verbose rebuildBundles bson@0.2.15
+1372 verbose rebuildBundles [ 'nan' ]
+1373 info install bson@0.2.15
+1374 verbose unsafe-perm in lifecycle true
+1375 info bson@0.2.15 Failed to exec install script
+1376 info bson@0.2.15 Failed to exec install script
+1377 verbose unlock done using C:\Users\dtt\AppData\Roaming\npm-cache\_locks\bson-26dd4a5ac71bc786.lock for C:\Users\dtt\Documents\GitHub\web_exp02\exp02\node_modules\mongojs\node_modules\mongodb\node_modules\bson
+1378 verbose about to build C:\Users\dtt\Documents\GitHub\web_exp02\exp02\node_modules\mongojs\node_modules\mongodb
+1379 verbose unlock done using C:\Users\dtt\AppData\Roaming\npm-cache\_locks\bson-26dd4a5ac71bc786.lock for C:\Users\dtt\Documents\GitHub\web_exp02\exp02\node_modules\mongojs\node_modules\mongodb\node_modules\bson
+1380 verbose unlock done using C:\Users\dtt\AppData\Roaming\npm-cache\_locks\mongodb-de8a45e7ba7a87bc.lock for C:\Users\dtt\Documents\GitHub\web_exp02\exp02\node_modules\mongojs\node_modules\mongodb
+1381 verbose about to build C:\Users\dtt\Documents\GitHub\web_exp02\exp02\node_modules\mongojs
+1382 verbose unlock done using C:\Users\dtt\AppData\Roaming\npm-cache\_locks\mongojs-92f368c560090d7e.lock for C:\Users\dtt\Documents\GitHub\web_exp02\exp02\node_modules\mongojs
+1383 verbose stack Error: bson@0.2.15 install: `(node-gyp rebuild 2> builderror.log) || (exit 0)`
+1383 verbose stack spawn ENOENT
+1383 verbose stack     at errnoException (child_process.js:1001:11)
+1383 verbose stack     at Process.ChildProcess._handle.onexit (child_process.js:792:34)
+1384 verbose pkgid bson@0.2.15
+1385 verbose cwd C:\Users\dtt\Documents\GitHub\web_exp02\exp02
+1386 error Windows_NT 6.1.7601
+1387 error argv "node" "C:\\Users\\dtt\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npm-cli.js" "install" "mongojs"
+1388 error node v0.10.32
+1389 error npm  v2.1.4
+1390 error code ELIFECYCLE
+1391 error errno ENOENT
+1392 error syscall spawn
+1393 error bson@0.2.15 install: `(node-gyp rebuild 2> builderror.log) || (exit 0)`
+1393 error spawn ENOENT
+1394 error Failed at the bson@0.2.15 install script.
+1394 error This is most likely a problem with the bson package,
+1394 error not with npm itself.
+1394 error Tell the author that this fails on your system:
+1394 error     (node-gyp rebuild 2> builderror.log) || (exit 0)
+1394 error You can get their info via:
+1394 error     npm owner ls bson
+1394 error There is likely additional logging output above.
+1395 verbose exit [ 1, true ]
+1396 verbose unbuild node_modules\mongojs\node_modules\mongodb\node_modules\kerberos
+1397 info preuninstall kerberos@0.0.4
+1398 info uninstall kerberos@0.0.4
+1399 verbose unbuild rmStuff kerberos@0.0.4 from C:\Users\dtt\Documents\GitHub\web_exp02\exp02\node_modules
+1400 verbose unbuild rmStuff in C:\Users\dtt\Documents\GitHub\web_exp02\exp02\node_modules\mongojs\node_modules\mongodb\node_modules
+1401 info postuninstall kerberos@0.0.4
+1402 verbose gentlyRm vacuuming C:\Users\dtt\Documents\GitHub\web_exp02\exp02\node_modules\mongojs\node_modules\mongodb\node_modules\kerberos
+1403 silly gentlyRm purging C:\Users\dtt\Documents\GitHub\web_exp02\exp02\node_modules\mongojs\node_modules\mongodb\node_modules\kerberos
+1404 silly gentlyRm quitting because other entries in C:\Users\dtt\Documents\GitHub\web_exp02\exp02\node_modules\mongojs\node_modules\mongodb\node_modules
+1405 verbose unbuild node_modules\mongojs\node_modules\mongodb\node_modules\kerberos
+1406 verbose gentlyRm vacuuming C:\Users\dtt\Documents\GitHub\web_exp02\exp02\node_modules\mongojs\node_modules\mongodb\node_modules\kerberos
+1407 verbose unbuild node_modules\mongojs\node_modules\mongodb\node_modules\bson
+1408 info preuninstall bson@0.2.15
+1409 info uninstall bson@0.2.15
+1410 verbose unbuild rmStuff bson@0.2.15 from C:\Users\dtt\Documents\GitHub\web_exp02\exp02\node_modules
+1411 verbose unbuild rmStuff in C:\Users\dtt\Documents\GitHub\web_exp02\exp02\node_modules\mongojs\node_modules\mongodb\node_modules
+1412 info postuninstall bson@0.2.15
+1413 verbose gentlyRm vacuuming C:\Users\dtt\Documents\GitHub\web_exp02\exp02\node_modules\mongojs\node_modules\mongodb\node_modules\bson
+1414 silly gentlyRm purging C:\Users\dtt\Documents\GitHub\web_exp02\exp02\node_modules\mongojs\node_modules\mongodb\node_modules\bson
+1415 silly gentlyRm quitting because other entries in C:\Users\dtt\Documents\GitHub\web_exp02\exp02\node_modules\mongojs\node_modules\mongodb\node_modules
+1416 verbose unbuild node_modules\mongojs\node_modules\mongodb\node_modules\bson
+1417 verbose gentlyRm vacuuming C:\Users\dtt\Documents\GitHub\web_exp02\exp02\node_modules\mongojs\node_modules\mongodb\node_modules\bson
+1418 verbose unbuild node_modules\mongojs\node_modules\mongodb
+1419 info preuninstall mongodb@1.4.18
+1420 info uninstall mongodb@1.4.18
+1421 verbose unbuild rmStuff mongodb@1.4.18 from C:\Users\dtt\Documents\GitHub\web_exp02\exp02\node_modules
+1422 verbose unbuild rmStuff in C:\Users\dtt\Documents\GitHub\web_exp02\exp02\node_modules\mongojs\node_modules
+1423 info postuninstall mongodb@1.4.18
+1424 verbose gentlyRm vacuuming C:\Users\dtt\Documents\GitHub\web_exp02\exp02\node_modules\mongojs\node_modules\mongodb
+1425 silly gentlyRm purging C:\Users\dtt\Documents\GitHub\web_exp02\exp02\node_modules\mongojs\node_modules\mongodb
+1426 silly gentlyRm quitting because other entries in C:\Users\dtt\Documents\GitHub\web_exp02\exp02\node_modules\mongojs\node_modules
+1427 verbose unbuild node_modules\mongojs
+1428 info preuninstall mongojs@0.15.1
+1429 info uninstall mongojs@0.15.1
+1430 verbose unbuild rmStuff mongojs@0.15.1 from C:\Users\dtt\Documents\GitHub\web_exp02\exp02\node_modules
+1431 info postuninstall mongojs@0.15.1
+1432 verbose gentlyRm vacuuming C:\Users\dtt\Documents\GitHub\web_exp02\exp02\node_modules\mongojs
+1433 silly gentlyRm purging C:\Users\dtt\Documents\GitHub\web_exp02\exp02\node_modules\mongojs
+1434 silly gentlyRm quitting because other entries in C:\Users\dtt\Documents\GitHub\web_exp02\exp02\node_modules
